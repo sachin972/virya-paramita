@@ -7,13 +7,13 @@ export default function ProductBasedSolution({}) {
             <div className="w-full p-8" id="e-commerce">
                 {/* Header Section */}
                 <div className="bg-blue-800/10 p-8 rounded-lg shadow-lg mb-8">
-                    <h2 className="text-yellow-400 text-lg uppercase tracking-wide">
+                    <h2 className="text-black-400 text-lg uppercase tracking-wide">
                         06 Product Based Solutions
                     </h2>
-                    <h1 className="text-4xl font-bold mt-4 text-yellow-500/80">
+                    <h1 className="text-4xl font-bold mt-4 text-black-500/80">
                         Grow your e-commerce business, ground up
                     </h1>
-                    <p className="text-lg text-yellow-100/90 mt-4">
+                    <p className="text-lg text-black-100/90 mt-4">
                         Our end-to-end e-commerce solutions guarantee your
                         business growth through long-term growth-focused
                         strategy, comprehensive technical support from our
@@ -23,14 +23,14 @@ export default function ProductBasedSolution({}) {
 
                 {/* Scope Section */}
                 <div className="bg-gray-800/50 p-8 rounded-lg shadow-lg">
-                    <h3 className="text-2xl font-bold text-yellow-500 mb-4">
+                    <h3 className="text-2xl font-bold text-black-500 mb-4">
                         Scope
                     </h3>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                         {/* Market and Buyer Analysis */}
                         <article>
                             <svg
-                                className="mb-3 fill-yellow-500"
+                                className="mb-3 fill-black-500"
                                 xmlns="http://www.w3.org/2000/svg"
                                 width={24}
                                 height={24}
@@ -41,10 +41,10 @@ export default function ProductBasedSolution({}) {
                                     d="M13.01 12.508a2.5 2.5 0 0 0-3.502.482L1.797 23.16.203 21.952l7.71-10.17a4.5 4.5 0 1 1 7.172 5.437l-4.84 6.386-1.594-1.209 4.841-6.385a2.5 2.5 0 0 0-.482-3.503Z"
                                 />
                             </svg>
-                            <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-yellow-400">
+                            <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-black-400">
                                 E-Commerce Website Creation & Migration
                             </h3>
-                            <p className="text-yellow-200/90">
+                            <p className="text-black-200/90">
                                 Our extensive e-commerce expertise ensures
                                 quality website creation or revamp.
                                 <br />
@@ -59,7 +59,7 @@ export default function ProductBasedSolution({}) {
                         {/* Marketing Strategy */}
                         <article>
                             <svg
-                                className="mb-3 fill-yellow-500"
+                                className="mb-3 fill-black-500"
                                 xmlns="http://www.w3.org/2000/svg"
                                 width={24}
                                 height={24}
@@ -70,10 +70,10 @@ export default function ProductBasedSolution({}) {
                                 />
                                 <path d="M19 6H0v2h17v8H7v-6H5v8h19v-2h-5V6Z" />
                             </svg>
-                            <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-yellow-400">
+                            <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-black-400">
                                 Marketplace Integration
                             </h3>
-                            <p className="text-yellow-200/90">
+                            <p className="text-black-200/90">
                                 We help in positioning business on marketplaces
                                 like Amazon, Flipkart, Myntra, PayTM and more
                                 for higher visibility and sales.
@@ -89,7 +89,7 @@ export default function ProductBasedSolution({}) {
                         {/* Communication & Creative Strategy */}
                         <article>
                             <svg
-                                className="mb-3 fill-yellow-500"
+                                className="mb-3 fill-black-500"
                                 xmlns="http://www.w3.org/2000/svg"
                                 width={24}
                                 height={24}
@@ -100,10 +100,10 @@ export default function ProductBasedSolution({}) {
                                     d="m16.295 5.393 7.528 2.034-4.436 16.412L5.87 20.185l.522-1.93 11.585 3.132 3.392-12.55-5.597-1.514.522-1.93Z"
                                 />
                             </svg>
-                            <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-yellow-400">
+                            <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-black-400">
                                 Full Funnel Digital Marketing
                             </h3>
-                            <p className="text-yellow-200/90">
+                            <p className="text-black-200/90">
                                 We cover the entire consumer funnel with PPC
                                 campaigns, content marketing, SEO and social
                                 media communications that are aligned with the
@@ -117,7 +117,7 @@ export default function ProductBasedSolution({}) {
                         </article>
                         <article>
                             <svg
-                                className="mb-3 fill-yellow-500"
+                                className="mb-3 fill-black-500"
                                 xmlns="http://www.w3.org/2000/svg"
                                 width={24}
                                 height={24}
@@ -128,10 +128,10 @@ export default function ProductBasedSolution({}) {
                                     d="m16.295 5.393 7.528 2.034-4.436 16.412L5.87 20.185l.522-1.93 11.585 3.132 3.392-12.55-5.597-1.514.522-1.93Z"
                                 />
                             </svg>
-                            <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-yellow-400">
+                            <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-black-400">
                                 Analytics{" "}
                             </h3>
-                            <p className="text-yellow-200/90">
+                            <p className="text-black-200/90">
                                 We analyze raw data from every channel like
                                 online marketplaces, social media, or even from
                                 low traffic channels like email support or
@@ -145,7 +145,7 @@ export default function ProductBasedSolution({}) {
                         </article>
                         <article>
                             <svg
-                                className="mb-3 fill-yellow-500"
+                                className="mb-3 fill-black-500"
                                 xmlns="http://www.w3.org/2000/svg"
                                 width={24}
                                 height={24}
@@ -156,10 +156,10 @@ export default function ProductBasedSolution({}) {
                                     d="m16.295 5.393 7.528 2.034-4.436 16.412L5.87 20.185l.522-1.93 11.585 3.132 3.392-12.55-5.597-1.514.522-1.93Z"
                                 />
                             </svg>
-                            <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-yellow-400">
+                            <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-black-400">
                                 Order Fulfilment{" "}
                             </h3>
-                            <p className="text-yellow-200/90">
+                            <p className="text-black-200/90">
                                 We help simplify last-mile logistics needs by
                                 tying up with reputed delivery services like
                                 Shiprocket, Delhivery, to mention a few.
@@ -172,7 +172,7 @@ export default function ProductBasedSolution({}) {
                         </article>
                         <article>
                             <svg
-                                className="mb-3 fill-yellow-500"
+                                className="mb-3 fill-black-500"
                                 xmlns="http://www.w3.org/2000/svg"
                                 width={24}
                                 height={24}
@@ -183,10 +183,10 @@ export default function ProductBasedSolution({}) {
                                     d="m16.295 5.393 7.528 2.034-4.436 16.412L5.87 20.185l.522-1.93 11.585 3.132 3.392-12.55-5.597-1.514.522-1.93Z"
                                 />
                             </svg>
-                            <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-yellow-400">
+                            <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-black-400">
                                 E-Commerce Consulting
                             </h3>
-                            <p className="text-yellow-200/90">
+                            <p className="text-black-200/90">
                                 We help in business progress 360 degree
                                 assistance and consultation on market trends,
                                 competition,

@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 
 export default function Footer() {
     return (
-        <footer>
+        <footer className="bg-gradient-to-b from-blue-200  to-blue-700">
             <div className="relative mx-auto max-w-6xl px-4 sm:px-6">
                 {/* Footer illustration */}
                 <div
@@ -24,28 +24,15 @@ export default function Footer() {
                 </div>
                 <div className="grid grid-cols-2 justify-between gap-12 py-8 sm:grid-rows-[auto_auto] md:grid-cols-4 md:grid-rows-[auto_auto] md:py-12 lg:grid-cols-[repeat(4,minmax(0,140px))_1fr] lg:grid-rows-1 xl:gap-20">
                     {/* 1st block */}
+
                     <div className="space-y-2">
-                        <h3 className="text-sm font-medium text-gray-200">
-                            Our Offices
-                        </h3>
-                        <div>
-                            <a
-                                className="text-yellow-200/65 transition hover:text-yellow-500"
-                                href="#0"
-                            >
-                                108, Tower 3, Park View Residency, Palam Vihar
-                                Sector 3, Gurugram, Haryana 411045
-                            </a>
-                        </div>
-                    </div>
-                    <div className="space-y-2">
-                        <h3 className="text-sm font-medium text-gray-200">
+                        <h3 className="text-sm font-medium text-blue-950">
                             Useful Links
                         </h3>
                         <ul className="space-y-2 text-sm">
                             <li>
                                 <Link
-                                    className="text-yellow-200/65 transition hover:text-yellow-500"
+                                    className="text-blue-950 transition hover:text-blue-950/65"
                                     to="/"
                                 >
                                     Home
@@ -53,7 +40,7 @@ export default function Footer() {
                             </li>
                             {/* <li>
                                 <a
-                                    className="text-yellow-200/65 transition hover:text-yellow-500"
+                                    className="text-black-200/65 transition hover:text-black-500"
                                     href="#0"
                                 >
                                     In the News
@@ -61,7 +48,7 @@ export default function Footer() {
                             </li> */}
                             <li>
                                 <Link
-                                    className="text-yellow-200/65 transition opacity-75 cursor-default"
+                                    className="text-blue-950 transition hover:text-blue-950/65"
                                     to="/about"
                                 >
                                     About Us
@@ -69,7 +56,7 @@ export default function Footer() {
                             </li>
                             <li>
                                 <Link
-                                    className="text-yellow-200/65 transition hover:text-yellow-500"
+                                    className="text-blue-950 transition hover:text-blue-950/65"
                                     to="/privacy-policy"
                                 >
                                     Services
@@ -77,7 +64,7 @@ export default function Footer() {
                             </li>
                             <li>
                                 <Link
-                                    className="text-yellow-200/65 transition hover:text-yellow-500"
+                                    className="text-blue-950 transition hover:text-blue-950/65"
                                     to="/privacy-policy"
                                 >
                                     Terms of Policy
@@ -85,7 +72,7 @@ export default function Footer() {
                             </li>
                             <li>
                                 <Link
-                                    className="text-yellow-200/65 transition hover:text-yellow-500"
+                                    className="text-blue-950 transition hover:text-blue-950/65"
                                     to="/privacy-policy"
                                 >
                                     Privacy Policy
@@ -93,59 +80,20 @@ export default function Footer() {
                             </li>
                         </ul>
                     </div>
-                    {/* 4th block */}
-                    <div className="space-y-2">
-                        <h3 className="text-sm font-medium text-gray-200">
-                            Our Services
-                        </h3>
-                        <ul>
-                            <li>
-                                <Link
-                                    className="text-yellow-200/65 transition hover:text-yellow-500"
-                                    to="/services"
-                                >
-                                    Ocean Monitoring System
-                                </Link>
-                            </li>
-                            <li>
-                                <Link
-                                    className="text-yellow-200/65 transition hover:text-yellow-500"
-                                    to="/services"
-                                >
-                                    SubSea Applications
-                                </Link>
-                            </li>
-                            <li>
-                                <Link
-                                    className="text-yellow-200/65 transition hover:text-yellow-500"
-                                    to="/services"
-                                >
-                                    Marine Communications
-                                </Link>
-                            </li>
-                            <li>
-                                <Link
-                                    className="text-yellow-200/65 transition hover:text-yellow-500"
-                                    to="/services"
-                                >
-                                    Ocean Inspection System
-                                </Link>
-                            </li>
-                        </ul>
-                    </div>
+
                     {/* 5th block */}
                     <div className="col-span-2 md:col-span-4 lg:col-span-1 lg:text-center">
                         <div className="mb-1">
                             <Logo height={170} width={170} />
                         </div>
                         <div className="text-xs">
-                            <p className="mb-3 text-yellow-200/65">
+                            <p className="mb-3 text-blue-950">
                                 © viryaparamita.com
                             </p>
                             <ul className="inline-flex gap-2">
                                 <li>
                                     <a
-                                        className="flex items-center justify-center text-yellow-500 transition hover:text-yellow-400"
+                                        className="flex items-center justify-center text-blue-950 transition"
                                         href="#0"
                                         aria-label="Twitter"
                                     >
@@ -158,7 +106,7 @@ export default function Footer() {
                                         >
                                             <g>
                                                 <path
-                                                    fill="#D4AF37"
+                                                    fill="#172554"
                                                     d="M462.39,5.231C460.641,2.008,457.268,0,453.6,0H378.4c-3.384,0-6.538,1.711-8.383,4.548
 		L237.199,208.756L104.383,4.548c-3.01-4.629-9.205-5.941-13.835-2.931c-4.63,3.011-5.942,9.205-2.931,13.835L225.27,227.097
 		L50.017,496.548c-2,3.074-2.156,6.997-0.407,10.221c1.749,3.224,5.123,5.231,8.79,5.231h75.2c3.384,0,6.538-1.711,8.383-4.548
@@ -172,7 +120,7 @@ export default function Footer() {
                                 </li>
                                 <li>
                                     <a
-                                        className="flex items-center justify-center text-yellow-500 transition hover:text-yellow-400"
+                                        className="flex items-center justify-center text-blue-950 transition"
                                         href="#0"
                                         aria-label="facebook"
                                     >
@@ -185,7 +133,7 @@ export default function Footer() {
                                             <g>
                                                 <path
                                                     fill="none"
-                                                    stroke="#D4AF37"
+                                                    stroke="#172554"
                                                     stroke-linecap="round"
                                                     stroke-linejoin="round"
                                                     d="M21 1.5H3A1.5 1.5 0 0 0 1.5 3v18A1.5 1.5 0 0 0 3 22.5h8.5v-8h-2v-3h2v-2a4 4 0 0 1 4-4h3v3h-3a1 1 0 0 0-1 1v2h4l-.5 3h-3.5v8H21a1.5 1.5 0 0 0 1.5-1.5V3A1.5 1.5 0 0 0 21 1.5Z"
@@ -196,7 +144,7 @@ export default function Footer() {
                                 </li>
                                 <li>
                                     <a
-                                        className="flex items-center justify-center text-yellow-500 transition hover:text-yellow-400"
+                                        className="flex items-center justify-center text-blue-950 transition"
                                         href="#0"
                                         aria-label="Instagram"
                                     >
@@ -213,7 +161,7 @@ export default function Footer() {
                                         >
                                             <g
                                                 fill="none"
-                                                stroke="#D4AF37"
+                                                stroke="#172554"
                                                 stroke-linecap="round"
                                                 stroke-linejoin="round"
                                             >
@@ -243,7 +191,7 @@ export default function Footer() {
                                 </li>
                                 <li>
                                     <a
-                                        className="flex items-center justify-center text-yellow-500 transition hover:text-yellow-400"
+                                        className="flex items-center justify-center text-blue-950 transition"
                                         href="#0"
                                         aria-label="linkedin"
                                     >
@@ -287,13 +235,13 @@ export default function Footer() {
 		c3.9-1.4,7.9-2.7,11.8-3.7c16.8-4.6,34.2-5.6,51.6-3c14.4,2.1,25.7,5.7,34.7,10.9c19.3,11.2,31.8,33.5,31.8,56.8V429.3z"
                                             ></path>
                                             <path
-                                                fill="#D4AF37"
+                                                fill="#172554"
                                                 d="M464.1,6H47.9C24.8,6,6,24.8,6,47.9v416.1C6,487.2,24.8,506,47.9,506h416.1c23.1,0,41.9-18.8,41.9-41.9V47.9
 		C506,24.8,487.2,6,464.1,6z M486,464.1c0,12.1-9.8,21.9-21.9,21.9H47.9c-12.1,0-21.9-9.8-21.9-21.9V47.9C26,35.8,35.8,26,47.9,26
 		h416.1c12.1,0,21.9,9.8,21.9,21.9V464.1z"
                                             ></path>
                                             <path
-                                                fill="#D4AF37"
+                                                fill="#172554"
                                                 d="M171.8 204.5H96.8c-5.5 0-10 4.5-10 10v212.1c0 5.5 4.5 10 10 10h74.9c5.5 0 10-4.5 10-10V214.5C181.8 208.9 177.3 204.5 171.8 204.5zM161.8 416.6h-54.9V224.5h54.9V416.6zM409.6 245.8c-9-5.2-20.3-8.8-34.7-10.9-17.4-2.6-34.8-1.6-51.6 3-3.9 1.1-7.8 2.3-11.8 3.7v-27.1c0-5.5-4.5-10-10-10h-74.9c-5.5 0-10 4.5-10 10v212.1c0 5.5 4.5 10 10 10h74.9c5.5 0 10-4.5 10-10v-85.3c0-9.6 7.8-17.4 17.4-17.4s17.4 7.8 17.4 17.4v88c0 5.5 4.5 10 10 10h74.9c5.5 0 10-4.5 10-10V302.6C441.3 279.3 428.9 257 409.6 245.8zM421.3 419.3h-54.9v-78c0-20.6-16.8-37.4-37.4-37.4-20.6 0-37.4 16.8-37.4 37.4v75.3h-54.9V224.5h54.9v32.1c0 3.4 1.7 6.6 4.6 8.4 2.9 1.8 6.5 2.1 9.6.6 7.7-3.6 15.4-6.4 22.8-8.5 14.1-3.9 28.7-4.7 43.3-2.5 11.8 1.8 20.8 4.5 27.6 8.4 13.1 7.6 21.8 23.5 21.8 39.5V419.3zM134.3 72.7c-26.2 0-47.5 21.3-47.5 47.5 0 26.2 21.3 47.5 47.5 47.5 26.2 0 47.5-21.3 47.5-47.5C181.8 94 160.5 72.7 134.3 72.7zM134.3 147.6c-15.1 0-27.5-12.3-27.5-27.5s12.3-27.5 27.5-27.5 27.5 12.3 27.5 27.5S149.4 147.6 134.3 147.6z"
                                             ></path>
                                         </svg>

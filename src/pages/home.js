@@ -24,7 +24,6 @@ export default function Home() {
             <HeroHome />
             <Workflows />
             <Features />
-            <Testimonials />
             <Cta />
             <FAQSection />
         </>

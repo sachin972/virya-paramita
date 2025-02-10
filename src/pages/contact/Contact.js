@@ -6,15 +6,15 @@
 // // //             <div className="mx-auto max-w-6xl px-4 sm:px-6">
 // // //                 {/* Section header */}
 // // //                 <div className="pb-12 text-center md:pb-20">
-// // //                     <div className="inline-flex items-center gap-3 pb-3 before:h-px before:w-8 before:bg-gradient-to-r before:from-transparent before:to-yellow-200/50 after:h-px after:w-8 after:bg-gradient-to-l after:from-transparent after:to-yellow-200/50">
-// // //                         <span className="inline-flex bg-gradient-to-r from-yellow-500 to-yellow-200 bg-clip-text text-transparent">
+// // //                     <div className="inline-flex items-center gap-3 pb-3 before:h-px before:w-8 before:bg-gradient-to-r before:from-transparent before:to-black-200/50 after:h-px after:w-8 after:bg-gradient-to-l after:from-transparent after:to-black-200/50">
+// // //                         <span className="inline-flex bg-gradient-to-r from-black-500 to-black-200 bg-clip-text text-transparent">
 // // //                             Get in Touch
 // // //                         </span>
 // // //                     </div>
-// // //                     <h2 className="animate-[gradient_6s_linear_infinite] bg-[linear-gradient(to_right,theme(colors.gray.200),theme(colors.yellow.200),theme(colors.gray.50),theme(colors.yellow.300),theme(colors.gray.200))] bg-[length:200%_auto] bg-clip-text pb-4 font-nacelle text-3xl font-semibold text-transparent md:text-4xl">
+// // //                     <h2 className="animate-[gradient_6s_linear_infinite] bg-[linear-gradient(to_right,theme(colors.gray.200),theme(colors.black.200),theme(colors.gray.50),theme(colors.black.300),theme(colors.gray.200))] bg-[length:200%_auto] bg-clip-text pb-4 font-nacelle text-3xl font-semibold text-transparent md:text-4xl">
 // // //                         We'd Love to Hear From You
 // // //                     </h2>
-// // //                     <p className="text-lg text-yellow-200/65">
+// // //                     <p className="text-lg text-black-200/65">
 // // //                         Whether you have questions, feedback, or need
 // // //                         assistance, feel free to reach out. We're here to help!
 // // //                     </p>
@@ -27,7 +27,7 @@
 // // //                         <form>
 // // //                             <div className="mb-6">
 // // //                                 <label
-// // //                                     className="block text-sm font-medium text-yellow-200/80"
+// // //                                     className="block text-sm font-medium text-black-200/80"
 // // //                                     htmlFor="name"
 // // //                                 >
 // // //                                     Your Name
@@ -35,13 +35,13 @@
 // // //                                 <input
 // // //                                     id="name"
 // // //                                     type="text"
-// // //                                     className="w-full rounded-lg border border-gray-700 bg-gray-800 px-4 py-2 text-gray-200 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-yellow-500"
+// // //                                     className="w-full rounded-lg border border-gray-700 bg-gray-800 px-4 py-2 text-gray-200 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-black-500"
 // // //                                     placeholder="Enter your name"
 // // //                                 />
 // // //                             </div>
 // // //                             <div className="mb-6">
 // // //                                 <label
-// // //                                     className="block text-sm font-medium text-yellow-200/80"
+// // //                                     className="block text-sm font-medium text-black-200/80"
 // // //                                     htmlFor="email"
 // // //                                 >
 // // //                                     Your Email
@@ -49,13 +49,13 @@
 // // //                                 <input
 // // //                                     id="email"
 // // //                                     type="email"
-// // //                                     className="w-full rounded-lg border border-gray-700 bg-gray-800 px-4 py-2 text-gray-200 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-yellow-500"
+// // //                                     className="w-full rounded-lg border border-gray-700 bg-gray-800 px-4 py-2 text-gray-200 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-black-500"
 // // //                                     placeholder="Enter your email"
 // // //                                 />
 // // //                             </div>
 // // //                             <div className="mb-6">
 // // //                                 <label
-// // //                                     className="block text-sm font-medium text-yellow-200/80"
+// // //                                     className="block text-sm font-medium text-black-200/80"
 // // //                                     htmlFor="message"
 // // //                                 >
 // // //                                     Message
@@ -63,14 +63,14 @@
 // // //                                 <textarea
 // // //                                     id="message"
 // // //                                     rows={4}
-// // //                                     className="w-full rounded-lg border border-gray-700 bg-gray-800 px-4 py-2 text-gray-200 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-yellow-500"
+// // //                                     className="w-full rounded-lg border border-gray-700 bg-gray-800 px-4 py-2 text-gray-200 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-black-500"
 // // //                                     placeholder="Write your message"
 // // //                                 ></textarea>
 // // //                             </div>
 // // //                             <div>
 // // //                                 <button
 // // //                                     type="submit"
-// // //                                     className="btn w-full bg-gradient-to-t from-yellow-600/40 to-yellow-500 text-white shadow-[inset_0px_1px_0px_0px_theme(colors.white/.16)] hover:bg-[length:100%_150%]"
+// // //                                     className="btn w-full bg-gradient-to-t from-black-600/40 to-black-500 text-white shadow-[inset_0px_1px_0px_0px_theme(colors.white/.16)] hover:bg-[length:100%_150%]"
 // // //                                 >
 // // //                                     Send Message
 // // //                                 </button>
@@ -81,10 +81,10 @@
 // // //                     {/* Contact Info */}
 // // //                     <div className="space-y-8">
 // // //                         <div>
-// // //                             <h3 className="text-lg font-semibold text-yellow-200">
+// // //                             <h3 className="text-lg font-semibold text-black-200">
 // // //                                 Our Office
 // // //                             </h3>
-// // //                             <p className="text-yellow-200/70">
+// // //                             <p className="text-black-200/70">
 // // //                                 NCR – 108, Tower 3 , Park View Residency 122003
 // // //                                 <br />
 // // //                                 Banglore - Falcon Towers , Ejipura , Kormangala
@@ -92,18 +92,18 @@
 // // //                             </p>
 // // //                         </div>
 // // //                         <div>
-// // //                             <h3 className="text-lg font-semibold text-yellow-200">
+// // //                             <h3 className="text-lg font-semibold text-black-200">
 // // //                                 Email Us
 // // //                             </h3>
-// // //                             <p className="text-yellow-200/70">
+// // //                             <p className="text-black-200/70">
 // // //                                 contact@theajai.com
 // // //                             </p>
 // // //                         </div>
 // // //                         <div>
-// // //                             <h3 className="text-lg font-semibold text-yellow-200">
+// // //                             <h3 className="text-lg font-semibold text-black-200">
 // // //                                 Call Us
 // // //                             </h3>
-// // //                             <p className="text-yellow-200/70">
+// // //                             <p className="text-black-200/70">
 // // //                                 +91 (777)608-2238
 // // //                             </p>
 // // //                         </div>
@@ -132,15 +132,15 @@
 // //             <div className="mx-auto max-w-6xl px-4 sm:px-6">
 // //                 {/* Section header */}
 // //                 <div className="pb-12 text-center md:pb-20">
-// //                     <div className="inline-flex items-center gap-3 pb-3 before:h-px before:w-8 before:bg-gradient-to-r before:from-transparent before:to-yellow-200/50 after:h-px after:w-8 after:bg-gradient-to-l after:from-transparent after:to-yellow-200/50">
-// //                         <span className="inline-flex bg-gradient-to-r from-yellow-500 to-yellow-200 bg-clip-text text-transparent">
+// //                     <div className="inline-flex items-center gap-3 pb-3 before:h-px before:w-8 before:bg-gradient-to-r before:from-transparent before:to-black-200/50 after:h-px after:w-8 after:bg-gradient-to-l after:from-transparent after:to-black-200/50">
+// //                         <span className="inline-flex bg-gradient-to-r from-black-500 to-black-200 bg-clip-text text-transparent">
 // //                             Get in Touch
 // //                         </span>
 // //                     </div>
-// //                     <h2 className="animate-[gradient_6s_linear_infinite] bg-[linear-gradient(to_right,theme(colors.gray.200),theme(colors.yellow.200),theme(colors.gray.50),theme(colors.yellow.300),theme(colors.gray.200))] bg-[length:200%_auto] bg-clip-text pb-4 font-nacelle text-3xl font-semibold text-transparent md:text-4xl">
+// //                     <h2 className="animate-[gradient_6s_linear_infinite] bg-[linear-gradient(to_right,theme(colors.gray.200),theme(colors.black.200),theme(colors.gray.50),theme(colors.black.300),theme(colors.gray.200))] bg-[length:200%_auto] bg-clip-text pb-4 font-nacelle text-3xl font-semibold text-transparent md:text-4xl">
 // //                         We'd Love to Hear From You
 // //                     </h2>
-// //                     <p className="text-lg text-yellow-200/65">
+// //                     <p className="text-lg text-black-200/65">
 // //                         Whether you have questions, feedback, or need
 // //                         assistance, feel free to reach out. We're here to help!
 // //                     </p>
@@ -153,7 +153,7 @@
 // //         <form>
 // //             <div className="mb-6">
 // //                 <label
-// //                     className="block text-sm font-medium text-yellow-200/80"
+// //                     className="block text-sm font-medium text-black-200/80"
 // //                     htmlFor="name"
 // //                 >
 // //                     Your Name
@@ -161,13 +161,13 @@
 // //                 <input
 // //                     id="name"
 // //                     type="text"
-// //                     className="w-full rounded-lg border border-gray-700 bg-gray-800 px-4 py-2 text-gray-200 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-yellow-500"
+// //                     className="w-full rounded-lg border border-gray-700 bg-gray-800 px-4 py-2 text-gray-200 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-black-500"
 // //                     placeholder="Enter your name"
 // //                 />
 // //             </div>
 // //             <div className="mb-6">
 // //                 <label
-// //                     className="block text-sm font-medium text-yellow-200/80"
+// //                     className="block text-sm font-medium text-black-200/80"
 // //                     htmlFor="email"
 // //                 >
 // //                     Your Email
@@ -175,13 +175,13 @@
 // //                 <input
 // //                     id="email"
 // //                     type="email"
-// //                     className="w-full rounded-lg border border-gray-700 bg-gray-800 px-4 py-2 text-gray-200 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-yellow-500"
+// //                     className="w-full rounded-lg border border-gray-700 bg-gray-800 px-4 py-2 text-gray-200 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-black-500"
 // //                     placeholder="Enter your email"
 // //                 />
 // //             </div>
 // //             <div className="mb-6">
 // //                 <label
-// //                     className="block text-sm font-medium text-yellow-200/80"
+// //                     className="block text-sm font-medium text-black-200/80"
 // //                     htmlFor="contact-number"
 // //                 >
 // //                     Contact Number
@@ -189,13 +189,13 @@
 // //                 <input
 // //                     id="contact-number"
 // //                     type="tel"
-// //                     className="w-full rounded-lg border border-gray-700 bg-gray-800 px-4 py-2 text-gray-200 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-yellow-500"
+// //                     className="w-full rounded-lg border border-gray-700 bg-gray-800 px-4 py-2 text-gray-200 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-black-500"
 // //                     placeholder="Enter your contact number"
 // //                 />
 // //             </div>
 // //             <div className="mb-6">
 // //                 <label
-// //                     className="block text-sm font-medium text-yellow-200/80"
+// //                     className="block text-sm font-medium text-black-200/80"
 // //                     htmlFor="message"
 // //                 >
 // //                     Message
@@ -203,14 +203,14 @@
 // //                 <textarea
 // //                     id="message"
 // //                     rows={4}
-// //                     className="w-full rounded-lg border border-gray-700 bg-gray-800 px-4 py-2 text-gray-200 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-yellow-500"
+// //                     className="w-full rounded-lg border border-gray-700 bg-gray-800 px-4 py-2 text-gray-200 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-black-500"
 // //                     placeholder="Write your message"
 // //                 ></textarea>
 // //             </div>
 // //             <div>
 // //                 <button
 // //                     type="submit"
-// //                     className="btn w-full bg-gradient-to-t from-yellow-600/40 to-yellow-500 text-white shadow-[inset_0px_1px_0px_0px_theme(colors.white/.16)] hover:bg-[length:100%_150%]"
+// //                     className="btn w-full bg-gradient-to-t from-black-600/40 to-black-500 text-white shadow-[inset_0px_1px_0px_0px_theme(colors.white/.16)] hover:bg-[length:100%_150%]"
 // //                 >
 // //                     Send Message
 // //                 </button>
@@ -221,10 +221,10 @@
 // //     {/* Contact Info */}
 // //     <div className="space-y-8">
 // //         <div>
-// //             <h3 className="text-lg font-semibold text-yellow-200">
+// //             <h3 className="text-lg font-semibold text-black-200">
 // //                 Our Office
 // //             </h3>
-// //             <p className="text-yellow-200/70">
+// //             <p className="text-black-200/70">
 // //                 NCR – 108, Tower 3 , Park View Residency 122003
 // //                 <br />
 // //                 Bangalore - Falcon Towers , Ejipura ,
@@ -232,18 +232,18 @@
 // //             </p>
 // //         </div>
 // //         <div>
-// //             <h3 className="text-lg font-semibold text-yellow-200">
+// //             <h3 className="text-lg font-semibold text-black-200">
 // //                 Email Us
 // //             </h3>
-// //             <p className="text-yellow-200/70">
+// //             <p className="text-black-200/70">
 // //                 contact@theajai.com
 // //             </p>
 // //         </div>
 // //         <div>
-// //             <h3 className="text-lg font-semibold text-yellow-200">
+// //             <h3 className="text-lg font-semibold text-black-200">
 // //                 Call Us
 // //             </h3>
-// //             <p className="text-yellow-200/70">
+// //             <p className="text-black-200/70">
 // //                 +91 (777) 608-2238
 // //             </p>
 // //         </div>
@@ -272,15 +272,15 @@
 // //             <div className="mx-auto max-w-6xl px-4 sm:px-6">
 // //                 {/* Section header */}
 // //                 <div className="pb-12 text-center md:pb-20">
-// //                     <div className="inline-flex items-center gap-3 pb-3 before:h-px before:w-8 before:bg-gradient-to-r before:from-transparent before:to-yellow-200/50 after:h-px after:w-8 after:bg-gradient-to-l after:from-transparent after:to-yellow-200/50">
-// //                         <span className="inline-flex bg-gradient-to-r from-yellow-500 to-yellow-200 bg-clip-text text-transparent">
+// //                     <div className="inline-flex items-center gap-3 pb-3 before:h-px before:w-8 before:bg-gradient-to-r before:from-transparent before:to-black-200/50 after:h-px after:w-8 after:bg-gradient-to-l after:from-transparent after:to-black-200/50">
+// //                         <span className="inline-flex bg-gradient-to-r from-black-500 to-black-200 bg-clip-text text-transparent">
 // //                             Get in Touch
 // //                         </span>
 // //                     </div>
-// //                     <h2 className="animate-[gradient_6s_linear_infinite] bg-[linear-gradient(to_right,theme(colors.gray.200),theme(colors.yellow.200),theme(colors.gray.50),theme(colors.yellow.300),theme(colors.gray.200))] bg-[length:200%_auto] bg-clip-text pb-4 font-nacelle text-3xl font-semibold text-transparent md:text-4xl">
+// //                     <h2 className="animate-[gradient_6s_linear_infinite] bg-[linear-gradient(to_right,theme(colors.gray.200),theme(colors.black.200),theme(colors.gray.50),theme(colors.black.300),theme(colors.gray.200))] bg-[length:200%_auto] bg-clip-text pb-4 font-nacelle text-3xl font-semibold text-transparent md:text-4xl">
 // //                         We'd Love to Hear From You
 // //                     </h2>
-// //                     <p className="text-lg text-yellow-200/65">
+// //                     <p className="text-lg text-black-200/65">
 // //                         Whether you have questions, feedback, or need
 // //                         assistance, feel free to reach out. We're here to help!
 // //                     </p>
@@ -304,7 +304,7 @@
 // //                             </div>
 // //                         </div>
 // //                         <div className="p-6">
-// //                             <p className="text-yellow-200/80">
+// //                             <p className="text-black-200/80">
 // //                                 3rd Floor, Sr. No. 9, H.No:1/2,
 // //                                 <br />
 // //                                 Near Ramada Plaza,
@@ -319,7 +319,7 @@
 // //                                 href="https://goo.gl/maps/example" // Replace with actual Google Maps link
 // //                                 target="_blank"
 // //                                 rel="noopener noreferrer"
-// //                                 className="mt-4 inline-block text-yellow-500 hover:underline"
+// //                                 className="mt-4 inline-block text-black-500 hover:underline"
 // //                             >
 // //                                 Check in Google Maps
 // //                             </a>
@@ -342,7 +342,7 @@
 // //                             </div>
 // //                         </div>
 // //                         <div className="p-6">
-// //                             <p className="text-yellow-200/80">
+// //                             <p className="text-black-200/80">
 // //                                 91springboard Lotus,
 // //                                 <br />
 // //                                 Plot No. D-5, Road No. 20, Marol MIDC,
@@ -357,7 +357,7 @@
 // //                                 href="https://goo.gl/maps/example" // Replace with actual Google Maps link
 // //                                 target="_blank"
 // //                                 rel="noopener noreferrer"
-// //                                 className="mt-4 inline-block text-yellow-500 hover:underline"
+// //                                 className="mt-4 inline-block text-black-500 hover:underline"
 // //                             >
 // //                                 Check in Google Maps
 // //                             </a>
@@ -481,15 +481,15 @@
 //             <div className="mx-auto max-w-6xl px-4 sm:px-6">
 //                 {/* Section header */}
 //                 <div className="pb-12 text-center md:pb-20">
-//                     <div className="inline-flex items-center gap-3 pb-3 before:h-px before:w-8 before:bg-gradient-to-r before:from-transparent before:to-yellow-200/50 after:h-px after:w-8 after:bg-gradient-to-l after:from-transparent after:to-yellow-200/50">
-//                         <span className="inline-flex bg-gradient-to-r from-yellow-500 to-yellow-200 bg-clip-text text-transparent">
+//                     <div className="inline-flex items-center gap-3 pb-3 before:h-px before:w-8 before:bg-gradient-to-r before:from-transparent before:to-black-200/50 after:h-px after:w-8 after:bg-gradient-to-l after:from-transparent after:to-black-200/50">
+//                         <span className="inline-flex bg-gradient-to-r from-black-500 to-black-200 bg-clip-text text-transparent">
 //                             Get in Touch
 //                         </span>
 //                     </div>
-//                     <h2 className="animate-[gradient_6s_linear_infinite] bg-[linear-gradient(to_right,theme(colors.gray.200),theme(colors.yellow.200),theme(colors.gray.50),theme(colors.yellow.300),theme(colors.gray.200))] bg-[length:200%_auto] bg-clip-text pb-4 font-nacelle text-3xl font-semibold text-transparent md:text-4xl">
+//                     <h2 className="animate-[gradient_6s_linear_infinite] bg-[linear-gradient(to_right,theme(colors.gray.200),theme(colors.black.200),theme(colors.gray.50),theme(colors.black.300),theme(colors.gray.200))] bg-[length:200%_auto] bg-clip-text pb-4 font-nacelle text-3xl font-semibold text-transparent md:text-4xl">
 //                         We'd Love to Hear From You
 //                     </h2>
-//                     <p className="text-lg text-yellow-200/65">
+//                     <p className="text-lg text-black-200/65">
 //                         Whether you have questions, feedback, or need
 //                         assistance, feel free to reach out. We're here to help!
 //                     </p>
@@ -502,7 +502,7 @@
 //                         <form onSubmit={handleSubmit}>
 //                             <div className="mb-6">
 //                                 <label
-//                                     className="block text-sm font-medium text-yellow-200/80"
+//                                     className="block text-sm font-medium text-black-200/80"
 //                                     htmlFor="name"
 //                                 >
 //                                     Your Name
@@ -512,13 +512,13 @@
 //                                     type="text"
 //                                     value={name}
 //                                     onChange={handleNameChange}
-//                                     className="w-full rounded-lg border border-gray-700 bg-gray-800 px-4 py-2 text-gray-200 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-yellow-500"
+//                                     className="w-full rounded-lg border border-gray-700 bg-gray-800 px-4 py-2 text-gray-200 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-black-500"
 //                                     placeholder="Enter your name"
 //                                 />
 //                             </div>
 //                             <div className="mb-6">
 //                                 <label
-//                                     className="block text-sm font-medium text-yellow-200/80"
+//                                     className="block text-sm font-medium text-black-200/80"
 //                                     htmlFor="email"
 //                                 >
 //                                     Your Email
@@ -528,7 +528,7 @@
 //                                     type="email"
 //                                     value={email}
 //                                     onChange={handleEmailChange}
-//                                     className="w-full rounded-lg border border-gray-700 bg-gray-800 px-4 py-2 text-gray-200 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-yellow-500"
+//                                     className="w-full rounded-lg border border-gray-700 bg-gray-800 px-4 py-2 text-gray-200 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-black-500"
 //                                     placeholder="Enter your email"
 //                                 />
 //                                 {errors.email && (
@@ -539,7 +539,7 @@
 //                             </div>
 //                             <div className="mb-6">
 //                                 <label
-//                                     className="block text-sm font-medium text-yellow-200/80"
+//                                     className="block text-sm font-medium text-black-200/80"
 //                                     htmlFor="contactNumber"
 //                                 >
 //                                     Contact Number
@@ -549,7 +549,7 @@
 //                                     type="tel"
 //                                     value={contact}
 //                                     onChange={handleContactChange}
-//                                     className="w-full rounded-lg border border-gray-700 bg-gray-800 px-4 py-2 text-gray-200 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-yellow-500"
+//                                     className="w-full rounded-lg border border-gray-700 bg-gray-800 px-4 py-2 text-gray-200 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-black-500"
 //                                     placeholder="Enter your contact number"
 //                                 />
 //                                 {errors.contactNumber && (
@@ -560,7 +560,7 @@
 //                             </div>
 //                             <div className="mb-6">
 //                                 <label
-//                                     className="block text-sm font-medium text-yellow-200/80"
+//                                     className="block text-sm font-medium text-black-200/80"
 //                                     htmlFor="message"
 //                                 >
 //                                     Message
@@ -570,14 +570,14 @@
 //                                     rows={4}
 //                                     value={message}
 //                                     onChange={handleMessageChange}
-//                                     className="w-full rounded-lg border border-gray-700 bg-gray-800 px-4 py-2 text-gray-200 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-yellow-500"
+//                                     className="w-full rounded-lg border border-gray-700 bg-gray-800 px-4 py-2 text-gray-200 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-black-500"
 //                                     placeholder="Write your message"
 //                                 ></textarea>
 //                             </div>
 //                             <div>
 //                                 <button
 //                                     type="submit"
-//                                     className="btn w-full bg-gradient-to-t from-yellow-600/40 to-yellow-500 text-white shadow-[inset_0px_1px_0px_0px_theme(colors.white/.16)] hover:bg-[length:100%_150%]"
+//                                     className="btn w-full bg-gradient-to-t from-black-600/40 to-black-500 text-white shadow-[inset_0px_1px_0px_0px_theme(colors.white/.16)] hover:bg-[length:100%_150%]"
 //                                 >
 //                                     Send Message
 //                                 </button>
@@ -588,10 +588,10 @@
 //                     {/* Contact Info */}
 //                     {/* <div className="space-y-8">
 //                         <div>
-//                             <h3 className="text-lg font-semibold text-yellow-200">
+//                             <h3 className="text-lg font-semibold text-black-200">
 //                                 Our Office
 //                             </h3>
-//                             <p className="text-yellow-200/70">
+//                             <p className="text-black-200/70">
 //                                 NCR – 108, Tower 3 , Park View Residency 122003
 //                                 <br />
 //                                 Bangalore - Falcon Towers , Ejipura ,
@@ -599,18 +599,18 @@
 //                             </p>
 //                         </div>
 //                         <div className="my-auto right-0">
-//                             <h3 className="text-lg font-semibold text-yellow-200">
+//                             <h3 className="text-lg font-semibold text-black-200">
 //                                 Email Us
 //                             </h3>
-//                             <p className="text-yellow-200/70">
+//                             <p className="text-black-200/70">
 //                                 contact@theajai.com
 //                             </p>
 //                         </div>
 //                         <div>
-//                             <h3 className="text-lg font-semibold text-yellow-200">
+//                             <h3 className="text-lg font-semibold text-black-200">
 //                                 Call Us
 //                             </h3>
-//                             <p className="text-yellow-200/70">
+//                             <p className="text-black-200/70">
 //                                 +91 (777) 608-2238
 //                             </p>
 //                         </div>
@@ -648,7 +648,7 @@
 //                             </div>
 //                         </div>
 //                         <div className="p-6">
-//                             <p className="text-yellow-200/80 text-center">
+//                             <p className="text-black-200/80 text-center">
 //                                 108, Tower 3,
 //                                 <br />
 //                                 Park View Residency,
@@ -659,10 +659,10 @@
 //                                 <br />
 //                                 Haryana 411045
 //                             </p>
-//                             <p className="text-yellow-200/80 mt-2 text-center">
+//                             <p className="text-black-200/80 mt-2 text-center">
 //                                 <strong>Contact:</strong> +91 7776082238
 //                             </p>
-//                             <p className="text-yellow-200/70 text-center">
+//                             <p className="text-black-200/70 text-center">
 //                                 <strong>Email:</strong> contact@theajai.com
 //                             </p>
 //                             <p className="text-center">
@@ -670,7 +670,7 @@
 //                                     href="https://maps.app.goo.gl/qkoWMReYPA2akWxJA" // Replace with actual Google Maps link
 //                                     target="_blank"
 //                                     rel="noopener noreferrer"
-//                                     className="mt-4 inline-block text-yellow-500 hover:underline"
+//                                     className="mt-4 inline-block text-black-500 hover:underline"
 //                                 >
 //                                     Check in Google Maps
 //                                 </a>
@@ -694,7 +694,7 @@
 //                             </div>
 //                         </div>
 //                         <div className="p-6">
-//                             <p className="text-yellow-200/80 text-center">
+//                             <p className="text-black-200/80 text-center">
 //                                 14 , 9th Main GG Road,
 //                                 <br />
 //                                 Falcon Towers,
@@ -705,10 +705,10 @@
 //                                 <br />
 //                                 Bangalore 560047
 //                             </p>
-//                             <p className="text-yellow-200/80 mt-2 text-center">
+//                             <p className="text-black-200/80 mt-2 text-center">
 //                                 <strong>Contact:</strong> +91 7776082238
 //                             </p>
-//                             <p className="text-yellow-200/80 text-center">
+//                             <p className="text-black-200/80 text-center">
 //                                 <strong>Email:</strong> contact@theajai.com
 //                             </p>
 //                             <p className="text-center">
@@ -716,7 +716,7 @@
 //                                     href="https://maps.app.goo.gl/2cyNeT78B71xnfak8" // Replace with actual Google Maps link
 //                                     target="_blank"
 //                                     rel="noopener noreferrer"
-//                                     className="mt-4 inline-block text-yellow-500 hover:underline"
+//                                     className="mt-4 inline-block text-black-500 hover:underline"
 //                                 >
 //                                     Check in Google Maps
 //                                 </a>
@@ -732,7 +732,7 @@
 //                             <div>
 //                                 <label
 //                                     htmlFor="name"
-//                                     className="block text-yellow-200/80"
+//                                     className="block text-black-200/80"
 //                                 >
 //                                     Name
 //                                 </label>
@@ -740,7 +740,7 @@
 //                                     type="text"
 //                                     id="name"
 //                                     name="name"
-//                                     className="w-full rounded border border-gray-700 bg-gray-900 px-4 py-2 text-yellow-200 focus:outline-none focus:ring-2 focus:ring-yellow-500"
+//                                     className="w-full rounded border border-gray-700 bg-gray-900 px-4 py-2 text-black-200 focus:outline-none focus:ring-2 focus:ring-black-500"
 //                                     placeholder="Enter your name"
 //                                     required
 //                                 />
@@ -748,7 +748,7 @@
 //                             <div>
 //                                 <label
 //                                     htmlFor="email"
-//                                     className="block text-yellow-200/80"
+//                                     className="block text-black-200/80"
 //                                 >
 //                                     Email
 //                                 </label>
@@ -756,7 +756,7 @@
 //                                     type="email"
 //                                     id="email"
 //                                     name="email"
-//                                     className="w-full rounded border border-gray-700 bg-gray-900 px-4 py-2 text-yellow-200 focus:outline-none focus:ring-2 focus:ring-yellow-500"
+//                                     className="w-full rounded border border-gray-700 bg-gray-900 px-4 py-2 text-black-200 focus:outline-none focus:ring-2 focus:ring-black-500"
 //                                     placeholder="Enter your email"
 //                                     required
 //                                 />
@@ -765,7 +765,7 @@
 //                         <div>
 //                             <label
 //                                 htmlFor="phone"
-//                                 className="block text-yellow-200/80"
+//                                 className="block text-black-200/80"
 //                             >
 //                                 Contact Number
 //                             </label>
@@ -773,7 +773,7 @@
 //                                 type="tel"
 //                                 id="phone"
 //                                 name="phone"
-//                                 className="w-full rounded border border-gray-700 bg-gray-900 px-4 py-2 text-yellow-200 focus:outline-none focus:ring-2 focus:ring-yellow-500"
+//                                 className="w-full rounded border border-gray-700 bg-gray-900 px-4 py-2 text-black-200 focus:outline-none focus:ring-2 focus:ring-black-500"
 //                                 placeholder="Enter your contact number"
 //                                 required
 //                             />
@@ -781,7 +781,7 @@
 //                         <div>
 //                             <label
 //                                 htmlFor="message"
-//                                 className="block text-yellow-200/80"
+//                                 className="block text-black-200/80"
 //                             >
 //                                 Message
 //                             </label>
@@ -789,7 +789,7 @@
 //                                 id="message"
 //                                 name="message"
 //                                 rows={4}
-//                                 className="w-full rounded border border-gray-700 bg-gray-900 px-4 py-2 text-yellow-200 focus:outline-none focus:ring-2 focus:ring-yellow-500"
+//                                 className="w-full rounded border border-gray-700 bg-gray-900 px-4 py-2 text-black-200 focus:outline-none focus:ring-2 focus:ring-black-500"
 //                                 placeholder="Write your message here"
 //                                 required
 //                             ></textarea>
@@ -797,7 +797,7 @@
 //                         <div>
 //                             <button
 //                                 type="submit"
-//                                 className="w-full rounded bg-yellow-500 px-6 py-2 text-gray-900 hover:bg-yellow-600"
+//                                 className="w-full rounded bg-black-500 px-6 py-2 text-gray-900 hover:bg-black-600"
 //                             >
 //                                 Submit
 //                             </button>
@@ -821,8 +821,8 @@ export default function ContactPage() {
         <div className="min-h-screen flex flex-col justify-between">
             {/* Header Section */}
             <div className="text-center pt-8">
-                <h1 className="text-4xl font-bold text-coral-600">CONTACT</h1>
-                <p className="text-gray-600 mt-2">
+                <h1 className="text-4xl font-bold text-blue-900">CONTACT</h1>
+                <p className="text-blue-900/80 mt-2">
                     We will reply within 24 working hours
                 </p>
             </div>
@@ -834,10 +834,10 @@ export default function ContactPage() {
                     <div className="space-y-4">
                         <div className="flex items-center space-x-2">
                             <div>
-                                <MapPin className="text-coral-500" />
+                                <MapPin className="text-blue-500" />
                             </div>
                             <div>
-                                <div>Location:</div>
+                                <div className="text-blue-900">Location:</div>
                                 <span className="text-gray-700">
                                     Visakhapatnam, Andhra Pradesh, India 530016
                                 </span>
@@ -845,10 +845,10 @@ export default function ContactPage() {
                         </div>
                         <div className="flex items-center space-x-2">
                             <div>
-                                <Mail className="text-coral-500" />
+                                <Mail className="text-blue-500" />
                             </div>
                             <div>
-                                <div className="pl-2">Email:</div>
+                                <div className=" text-blue-900">Email:</div>
                                 <span className="text-gray-700">
                                     hr@viryaparamita.co.in
                                 </span>
@@ -856,10 +856,10 @@ export default function ContactPage() {
                         </div>
                         <div className="flex items-center space-x-2">
                             <div>
-                                <Phone className="text-coral-500" />
+                                <Phone className="text-blue-500" />
                             </div>
                             <div>
-                                <div className="pl-2">Phone:</div>
+                                <div className=" text-blue-900">Phone:</div>
                                 <span className="text-gray-700">
                                     +91 9063666344
                                 </span>
@@ -879,19 +879,17 @@ export default function ContactPage() {
                 {/* Contact Form */}
                 <Card className="w-full max-w-lg p-6 bg-gray-50 rounded-xl">
                     <form className="space-y-4">
-                        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                            <Input
-                                placeholder="Your Name"
-                                required
-                                className="w-full"
-                            />
-                            <Input
-                                placeholder="Your Email"
-                                type="email"
-                                required
-                                className="w-full"
-                            />
-                        </div>
+                        <Input
+                            placeholder="Your Name"
+                            required
+                            className="w-full"
+                        />
+                        <Input
+                            placeholder="Your Email"
+                            type="email"
+                            required
+                            className="w-full"
+                        />
                         <Input
                             placeholder="Subject"
                             required
@@ -903,16 +901,16 @@ export default function ContactPage() {
                             required
                             className="w-full"
                         />
-                        <Button className="w-full bg-coral-500 hover:bg-coral-600 text-white">
+                        <button className="w-full bg-blue-300 hover:bg-blue-900/90 text-blue-900 rounded-lg p-3">
                             Send Message
-                        </Button>
+                        </button>
                     </form>
                 </Card>
             </div>
 
             {/* Newsletter Section */}
             <div className="mt-12 bg-gray-50 py-6 px-4 text-center">
-                <h2 className="text-xl font-semibold text-coral-600">
+                <h2 className="text-xl font-semibold text-blue-900">
                     Join Our Newsletter
                 </h2>
                 <p className="text-gray-600">
@@ -925,9 +923,9 @@ export default function ContactPage() {
                         required
                         className="flex-grow"
                     />
-                    <Button className="bg-coral-500 hover:bg-coral-600 text-white">
+                    <button className="bg-blue-500 hover:bg-blue-600 text-white p-2 rounded-lg">
                         Subscribe
-                    </Button>
+                    </button>
                 </div>
             </div>
         </div>

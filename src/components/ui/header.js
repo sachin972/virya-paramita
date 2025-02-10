@@ -77,7 +77,7 @@
 // //                         </li>
 // //                         <li>
 // //                             <button
-// //                                 className="btn-sm bg-gradient-to-t from-yellow-600/45 to-yellow-500 bg-[length:100%_100%] bg-[bottom] py-[5px] text-white shadow-[inset_0px_1px_0px_0px_theme(colors.white/.16)] hover:bg-[length:100%_150%]"
+// //                                 className="btn-sm bg-gradient-to-t from-black-600/45 to-black-500 bg-[length:100%_100%] bg-[bottom] py-[5px] text-white shadow-[inset_0px_1px_0px_0px_theme(colors.white/.16)] hover:bg-[length:100%_150%]"
 // //                                 // onClick={togglePopup}
 // //                             >
 // //                                 Enquire Now
@@ -185,7 +185,7 @@
 //                         </li>
 //                         <li>
 //                             <button
-//                                 className="btn-sm bg-gradient-to-t from-yellow-600/45 to-yellow-500 bg-[length:100%_100%] bg-[bottom] py-[5px] text-white shadow-[inset_0px_1px_0px_0px_theme(colors.white/.16)] hover:bg-[length:100%_150%]"
+//                                 className="btn-sm bg-gradient-to-t from-black-600/45 to-black-500 bg-[length:100%_100%] bg-[bottom] py-[5px] text-white shadow-[inset_0px_1px_0px_0px_theme(colors.white/.16)] hover:bg-[length:100%_150%]"
 //                                 onClick={() => setIsMenuOpen(false)}
 //                             >
 //                                 Enquire Now
@@ -324,7 +324,7 @@ export default function Header() {
                 <div className="mx-0 px-0 w-full">
                     <div
                         className={`relative flex h-20 items-center justify-between gap-3 transition-all ${
-                            isScrolled ? "bg-black" : "bg-transparent"
+                            isScrolled ? "bg-blue-500" : "bg-blue-200"
                         } px-3 before:pointer-events-none before:absolute before:inset-0 before:rounded-[inherit] before:border-transparent before:[background:linear-gradient(to_right,theme(colors.gray.800),theme(colors.gray.700),theme(colors.gray.800))_border-box] before:[mask-composite:exclude_!important] before:[mask:linear-gradient(white_0_0)_padding-box,_linear-gradient(white_0_0)] after:absolute after:inset-0 after:-z-10 `}
                     >
                         {/* Logo */}
@@ -359,7 +359,7 @@ export default function Header() {
                                 { name: "Team", route: "team" },
                                 { name: "Contact", route: "contact" },
                                 { name: "About Us", route: "about" },
-                                {name: "IEW 2025", route: 'iew-2025'}
+                                { name: "IEW 2025", route: "iew-2025" },
                             ].map((item) => (
                                 <li key={item.name}>
                                     <Link
@@ -374,7 +374,7 @@ export default function Header() {
                             {/* <li>
                                 <button
                                     id="enquire-now"
-                                    className="btn-sm bg-gradient-to-t from-yellow-600/45 to-yellow-500 bg-[length:100%_100%] bg-[bottom] py-[5px] text-white shadow-[inset_0px_1px_0px_0px_theme(colors.white/.16)] hover:bg-[length:100%_150%]"
+                                    className="btn-sm bg-gradient-to-t from-black-600/45 to-black-500 bg-[length:100%_100%] bg-[bottom] py-[5px] text-white shadow-[inset_0px_1px_0px_0px_theme(colors.white/.16)] hover:bg-[length:100%_150%]"
                                     onClick={togglePopup}
                                 >
                                     Get in Touch
@@ -406,27 +406,27 @@ export default function Header() {
                                     onSubmit={handleSubmit}
                                 >
                                     <div>
-                                        <label className="block text-sm font-medium text-yellow-200/65 transition hover:text-yellow-500 mb-1">
+                                        <label className="block text-sm font-medium text-black-200/65 transition hover:text-black-500 mb-1">
                                             Name
                                         </label>
                                         <input
                                             type="text"
                                             value={name}
                                             onChange={handleNameChange}
-                                            className="w-full px-3 py-2 rounded-lg bg-gray-700 text-gray-200 focus:ring-2 focus:ring-yellow-500 focus:outline-none"
+                                            className="w-full px-3 py-2 rounded-lg bg-gray-700 text-gray-200 focus:ring-2 focus:ring-black-500 focus:outline-none"
                                             placeholder="Enter your name"
                                             required
                                         />
                                     </div>
                                     <div>
-                                        <label className="block text-sm font-medium text-yellow-200/65 transition hover:text-yellow-500 mb-1">
+                                        <label className="block text-sm font-medium text-black-200/65 transition hover:text-black-500 mb-1">
                                             Contact Number
                                         </label>
                                         <input
                                             type="tel"
                                             value={contact}
                                             onChange={handleContactChange}
-                                            className="w-full px-3 py-2 rounded-lg bg-gray-700 text-gray-200 focus:ring-2 focus:ring-yellow-500 focus:outline-none"
+                                            className="w-full px-3 py-2 rounded-lg bg-gray-700 text-gray-200 focus:ring-2 focus:ring-black-500 focus:outline-none"
                                             placeholder="Enter your contact number"
                                             required
                                         />
@@ -437,14 +437,14 @@ export default function Header() {
                                         )}
                                     </div>
                                     <div>
-                                        <label className="block text-sm font-medium text-yellow-200/65 transition hover:text-yellow-500 mb-1">
+                                        <label className="block text-sm font-medium text-black-200/65 transition hover:text-black-500 mb-1">
                                             Email
                                         </label>
                                         <input
                                             type="email"
                                             value={email}
                                             onChange={handleEmailChange}
-                                            className="w-full px-3 py-2 rounded-lg bg-gray-700 text-gray-200 focus:ring-2 focus:ring-yellow-500 focus:outline-none"
+                                            className="w-full px-3 py-2 rounded-lg bg-gray-700 text-gray-200 focus:ring-2 focus:ring-black-500 focus:outline-none"
                                             placeholder="Enter your email"
                                             required
                                         />
@@ -455,21 +455,21 @@ export default function Header() {
                                         )}
                                     </div>
                                     <div>
-                                        <label className="block text-sm font-medium text-yellow-200/65 transition hover:text-yellow-500 mb-1">
+                                        <label className="block text-sm font-medium text-black-200/65 transition hover:text-black-500 mb-1">
                                             Company Name
                                         </label>
                                         <input
                                             type="text"
                                             value={company}
                                             onChange={handleCompanyChange}
-                                            className="w-full px-3 py-2 rounded-lg bg-gray-700 text-gray-200 focus:ring-2 focus:ring-yellow-500 focus:outline-none"
+                                            className="w-full px-3 py-2 rounded-lg bg-gray-700 text-gray-200 focus:ring-2 focus:ring-black-500 focus:outline-none"
                                             placeholder="Enter your company name"
                                             required
                                         />
                                     </div>
                                     <button
                                         type="submit"
-                                        className="w-full py-2 bg-yellow-500 text-gray-900 rounded-lg font-medium hover:bg-yellow-600 focus:outline-none focus:ring-2 focus:ring-yellow-400"
+                                        className="w-full py-2 bg-black-500 text-gray-900 rounded-lg font-medium hover:bg-black-600 focus:outline-none focus:ring-2 focus:ring-black-400"
                                     >
                                         Submit
                                     </button>

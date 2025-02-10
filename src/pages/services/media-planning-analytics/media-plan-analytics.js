@@ -7,13 +7,13 @@ export default function MediaPlanning({}) {
             <div className="w-full p-8" id="media-planning">
                 {/* Header Section */}
                 <div className="bg-blue-800/10 p-8 rounded-lg shadow-lg mb-8">
-                    <h2 className="text-yellow-400 text-lg uppercase tracking-wide">
+                    <h2 className="text-black-400 text-lg uppercase tracking-wide">
                         03 Media Planning & Analytics
                     </h2>
-                    <h1 className="text-4xl font-bold mt-4 text-yellow-500/80">
+                    <h1 className="text-4xl font-bold mt-4 text-black-500/80">
                         Growing in an omni-channel world
                     </h1>
-                    <p className="text-lg text-yellow-100/90 mt-4">
+                    <p className="text-lg text-black-100/90 mt-4">
                         Our media planning team has the acumen and agility to
                         work across the funnel, running omnichannel campaigns
                         that increase conversions and then leveraging the right
@@ -26,14 +26,14 @@ export default function MediaPlanning({}) {
 
                 {/* Scope Section */}
                 <div className="bg-gray-800/50 p-8 rounded-lg shadow-lg">
-                    <h3 className="text-2xl font-bold text-yellow-500 mb-4">
+                    <h3 className="text-2xl font-bold text-black-500 mb-4">
                         Scope
                     </h3>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                         {/* Market and Buyer Analysis */}
                         <article>
                             <svg
-                                className="mb-3 fill-yellow-500"
+                                className="mb-3 fill-black-500"
                                 xmlns="http://www.w3.org/2000/svg"
                                 width={24}
                                 height={24}
@@ -44,10 +44,10 @@ export default function MediaPlanning({}) {
                                     d="M13.01 12.508a2.5 2.5 0 0 0-3.502.482L1.797 23.16.203 21.952l7.71-10.17a4.5 4.5 0 1 1 7.172 5.437l-4.84 6.386-1.594-1.209 4.841-6.385a2.5 2.5 0 0 0-.482-3.503Z"
                                 />
                             </svg>
-                            <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-yellow-400">
+                            <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-black-400">
                                 Omni-channel planning
                             </h3>
-                            <p className="text-yellow-200/90">
+                            <p className="text-black-200/90">
                                 Our comprehensive media plans, across a mix of
                                 carefully-chosen channels
                                 <br /> Maximize budget & deliver on ROI. From
@@ -62,7 +62,7 @@ export default function MediaPlanning({}) {
                         {/* Marketing Strategy */}
                         <article>
                             <svg
-                                className="mb-3 fill-yellow-500"
+                                className="mb-3 fill-black-500"
                                 xmlns="http://www.w3.org/2000/svg"
                                 width={24}
                                 height={24}
@@ -73,10 +73,10 @@ export default function MediaPlanning({}) {
                                 />
                                 <path d="M19 6H0v2h17v8H7v-6H5v8h19v-2h-5V6Z" />
                             </svg>
-                            <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-yellow-400">
+                            <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-black-400">
                                 Advertising automation & campaign execution
                             </h3>
-                            <p className="text-yellow-200/90">
+                            <p className="text-black-200/90">
                                 Automated set up, budget allocation and
                                 optimisation of campaigns courtesy Advertise.Do
                                 <br />
@@ -91,7 +91,7 @@ export default function MediaPlanning({}) {
                         {/* Communication & Creative Strategy */}
                         <article>
                             <svg
-                                className="mb-3 fill-yellow-500"
+                                className="mb-3 fill-black-500"
                                 xmlns="http://www.w3.org/2000/svg"
                                 width={24}
                                 height={24}
@@ -102,10 +102,10 @@ export default function MediaPlanning({}) {
                                     d="m16.295 5.393 7.528 2.034-4.436 16.412L5.87 20.185l.522-1.93 11.585 3.132 3.392-12.55-5.597-1.514.522-1.93Z"
                                 />
                             </svg>
-                            <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-yellow-400">
+                            <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-black-400">
                                 Analytics & insights
                             </h3>
-                            <p className="text-yellow-200/90">
+                            <p className="text-black-200/90">
                                 Set up, run, analyse, repeat - adaptive learning
                                 is the key to a successful campaign
                                 <br />
@@ -117,7 +117,7 @@ export default function MediaPlanning({}) {
                         </article>
                         <article>
                             <svg
-                                className="mb-3 fill-yellow-500"
+                                className="mb-3 fill-black-500"
                                 xmlns="http://www.w3.org/2000/svg"
                                 width={24}
                                 height={24}
@@ -128,10 +128,10 @@ export default function MediaPlanning({}) {
                                     d="m16.295 5.393 7.528 2.034-4.436 16.412L5.87 20.185l.522-1.93 11.585 3.132 3.392-12.55-5.597-1.514.522-1.93Z"
                                 />
                             </svg>
-                            <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-yellow-400">
+                            <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-black-400">
                                 Custom attribution models
                             </h3>
-                            <p className="text-yellow-200/90">
+                            <p className="text-black-200/90">
                                 We take into account the complex buyer behaviour
                                 of today
                                 <br />

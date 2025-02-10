@@ -4,16 +4,16 @@ const PrivacyPolicy = () => {
     return (
         <section className=" text-white py-12 px-4 sm:px-6">
             <div className="max-w-6xl mx-auto">
-                <h1 className="text-4xl md:text-5xl font-semibold text-center bg-gradient-to-r from-gray-200 via-yellow-200 to-gray-50 bg-clip-text text-transparent animate-[gradient_6s_linear_infinite] pb-6">
+                <h1 className="text-4xl md:text-5xl font-semibold text-center bg-gradient-to-r from-gray-200 via-black-200 to-gray-50 bg-clip-text text-transparent animate-[gradient_6s_linear_infinite] pb-6">
                     Privacy Policy
                 </h1>
 
                 <div className="space-y-8">
                     <div>
-                        <h2 className="text-2xl font-semibold text-yellow-300 mb-4">
+                        <h2 className="text-2xl font-semibold text-black-300 mb-4">
                             Preamble
                         </h2>
-                        <p className="text-yellow-200/65">
+                        <p className="text-black-200/65">
                             TRIPITAKA SOLUTIONS (OPC) PVT LTD, operating under
                             the brand name TheAjai (“TheAjai,” “we,” or “us”) is
                             committed to protecting the privacy of your personal
@@ -29,10 +29,10 @@ const PrivacyPolicy = () => {
                         </p>
                     </div>
                     <div>
-                        <h2 className="text-2xl font-semibold text-yellow-300 mb-4">
+                        <h2 className="text-2xl font-semibold text-black-300 mb-4">
                             Information Collection
                         </h2>
-                        <p className="text-yellow-200/65">
+                        <p className="text-black-200/65">
                             <strong>1 Through the Site:</strong> You can
                             generally visit the Site without revealing personal
                             information. However, in certain sections, we may
@@ -40,7 +40,7 @@ const PrivacyPolicy = () => {
                             access marketing content. Information collected may
                             include:
                         </p>
-                        <ul className="list-disc list-inside text-yellow-200/65 pl-4">
+                        <ul className="list-disc list-inside text-black-200/65 pl-4">
                             <li>
                                 Name, phone number, email address, and company
                                 name
@@ -53,7 +53,7 @@ const PrivacyPolicy = () => {
                                 visited
                             </li>
                         </ul>
-                        <p className="text-yellow-200/65 mt-4">
+                        <p className="text-black-200/65 mt-4">
                             <strong>2 Through the Services:</strong> When
                             clients use our Services, they may provide personal
                             information about you, including your name, address,
@@ -62,13 +62,13 @@ const PrivacyPolicy = () => {
                     </div>
 
                     <div>
-                        <h2 className="text-2xl font-semibold text-yellow-300 mb-4">
+                        <h2 className="text-2xl font-semibold text-black-300 mb-4">
                             Use of Information
                         </h2>
-                        <p className="text-yellow-200/65">
+                        <p className="text-black-200/65">
                             We may use your personal information to:
                         </p>
-                        <ul className="list-disc list-inside text-yellow-200/65 pl-4">
+                        <ul className="list-disc list-inside text-black-200/65 pl-4">
                             <li>Contact you with requested information</li>
                             <li>Verify your authority to access the Site</li>
                             <li>Consider your eligibility for employment</li>
@@ -78,14 +78,14 @@ const PrivacyPolicy = () => {
                     </div>
 
                     <div>
-                        <h2 className="text-2xl font-semibold text-yellow-300 mb-4">
+                        <h2 className="text-2xl font-semibold text-black-300 mb-4">
                             Disclosure and Onward Transfer of Information
                         </h2>
-                        <p className="text-yellow-200/65">
+                        <p className="text-black-200/65">
                             We will not rent or sell your personal information.
                             However, we may share it with:
                         </p>
-                        <ul className="list-disc list-inside text-yellow-200/65 pl-4">
+                        <ul className="list-disc list-inside text-black-200/65 pl-4">
                             <li>Subsidiaries and affiliates</li>
                             <li>
                                 Vendors and service agencies for operational
@@ -100,10 +100,10 @@ const PrivacyPolicy = () => {
                     </div>
 
                     <div>
-                        <h2 className="text-2xl font-semibold text-yellow-300 mb-4">
+                        <h2 className="text-2xl font-semibold text-black-300 mb-4">
                             Links to Third-Party Sites
                         </h2>
-                        <p className="text-yellow-200/65">
+                        <p className="text-black-200/65">
                             Our Site may link to external websites. We are not
                             responsible for their content or privacy practices.
                             Please review their respective privacy policies.
@@ -111,10 +111,10 @@ const PrivacyPolicy = () => {
                     </div>
 
                     <div>
-                        <h2 className="text-2xl font-semibold text-yellow-300 mb-4">
+                        <h2 className="text-2xl font-semibold text-black-300 mb-4">
                             Limiting the Use of Collected Information
                         </h2>
-                        <p className="text-yellow-200/65">
+                        <p className="text-black-200/65">
                             You can limit our use of your personal information
                             by unsubscribing from marketing emails or managing
                             your account settings with our client.
@@ -122,11 +122,11 @@ const PrivacyPolicy = () => {
                     </div>
 
                     <div>
-                        <h2 className="text-2xl font-semibold text-yellow-300 mb-4">
+                        <h2 className="text-2xl font-semibold text-black-300 mb-4">
                             Reviewing, Correcting, and Deleting Personal
                             Information
                         </h2>
-                        <p className="text-yellow-200/65">
+                        <p className="text-black-200/65">
                             You may review, correct, or request deletion of your
                             personal information by contacting us. We retain
                             data for up to four years to comply with legal
@@ -135,10 +135,10 @@ const PrivacyPolicy = () => {
                     </div>
 
                     <div>
-                        <h2 className="text-2xl font-semibold text-yellow-300 mb-4">
+                        <h2 className="text-2xl font-semibold text-black-300 mb-4">
                             Security
                         </h2>
-                        <p className="text-yellow-200/65">
+                        <p className="text-black-200/65">
                             We employ industry-standard security measures to
                             protect your data. However, no method of
                             transmission over the internet is entirely secure.
@@ -147,10 +147,10 @@ const PrivacyPolicy = () => {
                     </div>
 
                     <div>
-                        <h2 className="text-2xl font-semibold text-yellow-300 mb-4">
+                        <h2 className="text-2xl font-semibold text-black-300 mb-4">
                             Children’s Privacy
                         </h2>
-                        <p className="text-yellow-200/65">
+                        <p className="text-black-200/65">
                             The Site and Services are not intended for children
                             under 13. If you believe a child has provided us
                             with their data, contact us at legal@theajai.com for
@@ -159,10 +159,10 @@ const PrivacyPolicy = () => {
                     </div>
 
                     <div>
-                        <h2 className="text-2xl font-semibold text-yellow-300 mb-4">
+                        <h2 className="text-2xl font-semibold text-black-300 mb-4">
                             Cookies
                         </h2>
-                        <p className="text-yellow-200/65">
+                        <p className="text-black-200/65">
                             Our Site uses cookies to enhance user experience and
                             track usage. You can manage or block cookies through
                             your browser settings.
@@ -170,10 +170,10 @@ const PrivacyPolicy = () => {
                     </div>
 
                     <div>
-                        <h2 className="text-2xl font-semibold text-yellow-300 mb-4">
+                        <h2 className="text-2xl font-semibold text-black-300 mb-4">
                             Privacy Policy Updates
                         </h2>
-                        <p className="text-yellow-200/65">
+                        <p className="text-black-200/65">
                             We may update this Privacy Policy from time to time.
                             Changes will be posted on the Site with an updated
                             effective date.
@@ -181,13 +181,13 @@ const PrivacyPolicy = () => {
                     </div>
 
                     <div>
-                        {/* <h2 className="text-2xl font-semibold text-yellow-300 mb-4">
+                        {/* <h2 className="text-2xl font-semibold text-black-300 mb-4">
                             Contact Us
                         </h2> */}
-                        <p className="text-yellow-200/90">
+                        <p className="text-black-200/90">
                             <strong>For questions, contact us at:</strong>
                         </p>
-                        <ul className="list-none text-yellow-200/65 pl-0">
+                        <ul className="list-none text-black-200/65 pl-0">
                             <li>
                                 <strong>Brand Name:</strong> TheAjai
                             </li>

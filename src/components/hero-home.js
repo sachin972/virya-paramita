@@ -16,14 +16,14 @@ export default function HeroHome() {
                     {/* Section header */}
                     <div className="pb-12 text-center md:pb-20 ">
                         <h1
-                            className="animate-[gradient_6s_linear_infinite] bg-[linear-gradient(to_right,theme(colors.gray.200),theme(colors.yellow.200),theme(colors.gray.50),theme(colors.yellow.300),theme(colors.gray.200))] bg-[length:200%_auto] bg-clip-text pb-5 font-nacelle text-4xl font-semibold text-transparent md:text-5xl"
+                            className="animate-[gradient_6s_linear_infinite] bg-[linear-gradient(to_right,theme(colors.gray.200),theme(colors.black.200),theme(colors.gray.50),theme(colors.black.300),theme(colors.gray.200))] bg-[length:200%_auto] bg-clip-text pb-5 font-nacelle text-4xl font-semibold text-black md:text-5xl"
                             data-aos="fade-up"
                         >
                             Renewable Wave-Energy
                         </h1>
                         <div className="mx-auto max-w-3xl">
                             <p
-                                className="mb-8 text-xl text-yellow-200/65"
+                                className="mb-8 text-xl text-black/65"
                                 data-aos="fade-up"
                                 data-aos-delay={200}
                             >
@@ -36,7 +36,7 @@ export default function HeroHome() {
                             <div className="mx-auto max-w-xs sm:flex sm:max-w-none sm:justify-center">
                                 <div data-aos="fade-up" data-aos-delay={400}>
                                     <Link
-                                        className="btn group mb-4 w-full bg-gradient-to-t from-yellow-600/40 to-yellow-500 bg-[length:100%_100%] bg-[bottom] text-white shadow-[inset_0px_1px_0px_0px_theme(colors.white/.16)] hover:bg-[length:100%_150%] sm:mb-0 sm:w-auto"
+                                        className="btn group mb-4 w-full bg-gradient-to-t from-blue-600/40 to-blue-500 bg-[length:100%_100%] bg-[bottom] text-white shadow-[inset_0px_1px_0px_0px_theme(colors.white/.16)] hover:bg-[length:100%_150%] sm:mb-0 sm:w-auto"
                                         to="/services"
                                     >
                                         <span className="relative inline-flex items-center">
@@ -69,16 +69,20 @@ export default function HeroHome() {
                                     {/* Close Button */}
                                     <button
                                         onClick={() => setShow(false)}
-                                        className="absolute top-4 right-4 z-10 text-white text-lg p-2 rounded-full bg-black/50 hover:bg-black/70"
+                                        className="absolute top-0 right-0 z-10 text-white text-lg p-2 rounded-full bg-black/50 hover:bg-black/70"
                                     >
                                         ✕
                                     </button>
                                     {/* Full-screen image */}
-                                    <video
-                                        className="w-full h-full object-contain"
-                                        // src={}
-                                        alt={"some video"}
-                                    />
+                                    <iframe
+                                        className="w-full h-full"
+                                        src="https://www.youtube.com/embed/8miWW2QyN_4?si=EXN7dlWKoqDBJuaQ"
+                                        title="YouTube video player"
+                                        frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                        referrerpolicy="strict-origin-when-cross-origin"
+                                        allowfullscreen
+                                    ></iframe>
                                 </DialogPanel>
                             </div>
                         </Dialog>

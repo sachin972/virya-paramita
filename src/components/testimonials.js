@@ -127,10 +127,10 @@ export default function Testimonials() {
             <div className="border-t py-12 [border-image:linear-gradient(to_right,transparent,theme(colors.slate.400/.25),transparent)1] md:py-20">
                 {/* Section header */}
                 <div className="mx-auto max-w-3xl pb-12 text-center">
-                    <h2 className="animate-[gradient_6s_linear_infinite] bg-[linear-gradient(to_right,theme(colors.gray.200),theme(colors.yellow.200),theme(colors.gray.50),theme(colors.yellow.300),theme(colors.gray.200))] bg-[length:200%_auto] bg-clip-text pb-4 font-nacelle text-3xl font-semibold text-transparent md:text-4xl">
+                    <h2 className="animate-[gradient_6s_linear_infinite] bg-[linear-gradient(to_right,theme(colors.gray.200),theme(colors.yellow.200),theme(colors.gray.50),theme(colors.yellow.300),theme(colors.gray.200))] bg-[length:200%_auto] bg-clip-text pb-4 font-nacelle text-3xl font-semibold text-blue-900 md:text-4xl">
                         Portfolio
                     </h2>
-                    <p className="text-lg text-yellow-200/65">
+                    <p className="text-lg text-blue-900/90">
                         Great pains bring convenient benefits. The necessities
                         of it result in something that escapes him indeed. Let
                         it be of true quality. Anyone who desires, desires
@@ -157,7 +157,7 @@ export default function Testimonials() {
                                 <svg
                                     className={`fill-current ${
                                         category === 1
-                                            ? "text-yellow-500"
+                                            ? "text-blue-500"
                                             : "text-gray-600"
                                     }`}
                                     xmlns="http://www.w3.org/2000/svg"
@@ -181,7 +181,7 @@ export default function Testimonials() {
                                 <svg
                                     className={`fill-current ${
                                         category === 2
-                                            ? "text-yellow-500"
+                                            ? "text-blue-500"
                                             : "text-gray-600"
                                     }`}
                                     xmlns="http://www.w3.org/2000/svg"
@@ -205,7 +205,7 @@ export default function Testimonials() {
                                 <svg
                                     className={`fill-current ${
                                         category === 3
-                                            ? "text-yellow-500"
+                                            ? "text-blue-500"
                                             : "text-gray-600"
                                     }`}
                                     xmlns="http://www.w3.org/2000/svg"
@@ -229,7 +229,7 @@ export default function Testimonials() {
                                 <svg
                                     className={`fill-current ${
                                         category === 4
-                                            ? "text-yellow-500"
+                                            ? "text-blue-500"
                                             : "text-gray-600"
                                     }`}
                                     xmlns="http://www.w3.org/2000/svg"
@@ -242,7 +242,7 @@ export default function Testimonials() {
                             </button>
                             {/* Button #5 */}
                             <button
-                                className={`flex h-8 flex-1 items-center gap-2.5 whitespace-nowrap rounded-full px-3 text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring focus-visible:ring-yellow-200 ${
+                                className={`flex h-8 flex-1 items-center gap-2.5 whitespace-nowrap rounded-full px-3 text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring focus-visible:ring-blue-200 ${
                                     category === 5
                                         ? "relative bg-gradient-to-b from-gray-900 via-gray-800/60 to-gray-900 before:pointer-events-none before:absolute before:inset-0 before:rounded-[inherit] before:border before:border-transparent before:[background:linear-gradient(to_bottom,theme(colors.yellow.500/0),theme(colors.yellow.500/.5))_border-box] before:[mask-composite:exclude_!important] before:[mask:linear-gradient(white_0_0)_padding-box,_linear-gradient(white_0_0)]"
                                         : "opacity-65 transition-opacity hover:opacity-90"
@@ -253,7 +253,7 @@ export default function Testimonials() {
                                 <svg
                                     className={`fill-current ${
                                         category === 5
-                                            ? "text-yellow-500"
+                                            ? "text-blue-500"
                                             : "text-gray-600"
                                     }`}
                                     xmlns="http://www.w3.org/2000/svg"

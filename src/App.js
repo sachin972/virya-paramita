@@ -20,12 +20,13 @@ import ContentAndEngineering from "./pages/services/content-and-engineering/cont
 import ExperienceDesign from "./pages/services/experience-design/experience-design";
 import ECommerce from "./pages/services/e-commerce-solutions/e-commerce";
 import { ToastContainer } from "react-toastify";
-import About from "./pages/about/About";
+// import About from "./pages/about/About";
 import Team from "./pages/Team/team";
 import PortfolioPage from "./pages/Portfolio/portfolio";
 import NewsPartnersPage from "./pages/newsAndPartners/newsAndPartners";
 // import ProjectSindhuja from "./pages/IWE/iwe2025";
 import IndiaEnergyWeek from "./pages/IWE/componet2";
+import AboutUs from "./pages/about/About";
 // const inter = Inter({
 //     subsets: ["latin"],
 //     variable: "--font-inter",
@@ -76,7 +77,7 @@ export default function App() {
     return (
         <Router>
             <div
-                className={`font-inter text-base text-gray-200 antialiased bg-gradient-to-r from-cyan-500 to-blue-500 w-full`} // TO be fixed: ${inter.variable} ${nacelle.variable}
+                className={`font-inter text-base text-gray-200 antialiased bg-gradient-to-r from-blue-50 to-cyan-200 w-full`} // TO be fixed: ${inter.variable} ${nacelle.variable}
             >
                 <div className="flex min-h-screen flex-col overflow-hidden supports-[overflow:clip]:overflow-clip">
                     <Header />
@@ -106,16 +107,6 @@ export default function App() {
                                 path="/services/digital-transformation"
                                 Component={DigitalTransformation}
                             />
-                            <Route
-                                path="/services/experience-design"
-                                Component={ExperienceDesign}
-                            />
-                            <Route
-                                path="/services/e-commerce-solution"
-                                Component={ECommerce}
-                            />
-                            {/* </Routes> */}
-                            {/* </Router> */}
                         </Route>
                         <Route path="/portfolio" Component={PortfolioPage} />
                         <Route path="/contact" Component={Contact} />
@@ -130,7 +121,7 @@ export default function App() {
                             path="/privacy-policy"
                             Component={PrivacyPolicy}
                         />
-                        <Route path="/about" Component={About} />
+                        <Route path="/about" Component={AboutUs} />
                     </Routes>
                     <ToastContainer />
 

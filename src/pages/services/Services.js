@@ -40,14 +40,14 @@ export default function Services({ children }) {
                             
                             <div className="pb-12 text-center md:pb-20">
                                 <h1
-                                    className="animate-[gradient_6s_linear_infinite] bg-[linear-gradient(to_right,theme(colors.gray.200),theme(colors.yellow.200),theme(colors.gray.50),theme(colors.yellow.300),theme(colors.gray.200))] bg-[length:200%_auto] bg-clip-text pb-5 font-nacelle text-4xl font-semibold text-transparent md:text-5xl"
+                                    className="animate-[gradient_6s_linear_infinite] bg-[linear-gradient(to_right,theme(colors.gray.200),theme(colors.black.200),theme(colors.gray.50),theme(colors.black.300),theme(colors.gray.200))] bg-[length:200%_auto] bg-clip-text pb-5 font-nacelle text-4xl font-semibold text-transparent md:text-5xl"
                                     data-aos="fade-up"
                                 >
                                     Our Services
                                 </h1>
                                 <div className="mx-auto max-w-3xl">
                                     <p
-                                        className="mb-8 text-lg text-yellow-200/65 md:text-xl"
+                                        className="mb-8 text-lg text-black-200/65 md:text-xl"
                                         data-aos="fade-up"
                                         data-aos-delay={200}
                                     >
@@ -76,14 +76,14 @@ export default function Services({ children }) {
                             <div className="mx-auto max-w-3xl pb-12 text-center md:pb-20">
                                 <div className="pb-12 text-center md:pb-20">
                                     <h1
-                                        className="animate-[gradient_6s_linear_infinite] bg-[linear-gradient(to_right,theme(colors.gray.200),theme(colors.yellow.200),theme(colors.gray.50),theme(colors.yellow.300),theme(colors.gray.200))] bg-[length:200%_auto] bg-clip-text pb-5 font-nacelle text-4xl font-semibold text-transparent md:text-5xl"
+                                        className="animate-[gradient_6s_linear_infinite] bg-[linear-gradient(to_right,theme(colors.gray.200),theme(colors.yellow.200),theme(colors.gray.50),theme(colors.yellow.300),theme(colors.gray.200))] bg-[length:200%_auto] bg-clip-text pb-5 font-nacelle text-4xl font-semibold text-blue-900 md:text-5xl"
                                         data-aos="fade-up"
                                     >
                                         Our Services
                                     </h1>
                                     <div className="mx-auto max-w-3xl">
                                         <p
-                                            className="mb-8 text-lg text-yellow-200/65 md:text-xl"
+                                            className="mb-8 text-lg text-blue-900/65 md:text-xl"
                                             data-aos="fade-up"
                                             data-aos-delay={200}
                                         >
@@ -95,13 +95,12 @@ export default function Services({ children }) {
                                     </div>
                                 </div>
                             </div>
-                            <div className="bg-gradient-to-br from-blue-950 via-green-300 to-green-600 text-white">
+                            <div className="bg-gradient-to-br from-blue-950 to-cyan-600 text-white">
                                 <div className="flex flex-col">
-                                    
                                     <div className="w-full  bg-blue-800/20 p-6">
                                         <ul className="flex flex-wrap items-center justify-between gap-4 max-sm:flex-col">
                                             <li
-                                                className="text-yellow-400/80 hover:text-yellow-600 cursor-pointer max-lg:basis-1/3"
+                                                className="text-white hover:text-blue-600 cursor-pointer max-lg:basis-1/3"
                                                 onClick={scrollToTheElement(
                                                     "digital-strategy"
                                                 )}
@@ -111,7 +110,7 @@ export default function Services({ children }) {
                                                 </div>
                                             </li>
                                             <li
-                                                className="text-yellow-400/80 hover:text-yellow-600 cursor-pointer max-lg:basis-1/3"
+                                                className="text-white hover:text-blue-600 cursor-pointer max-lg:basis-1/3"
                                                 onClick={scrollToTheElement}
                                             >
                                                 <div to="/services/content-and-engg">
@@ -119,7 +118,7 @@ export default function Services({ children }) {
                                                 </div>
                                             </li>
                                             <li
-                                                className="text-yellow-400/80 hover:text-yellow-600 cursor-pointer max-lg:basis-1/3"
+                                                className="text-white hover:text-blue-600 cursor-pointer max-lg:basis-1/3"
                                                 onClick={scrollToTheElement}
                                             >
                                                 <div to="/services/media-planning">
@@ -127,7 +126,7 @@ export default function Services({ children }) {
                                                 </div>
                                             </li>
                                             <li
-                                                className="text-yellow-400/80 hover:text-yellow-600 cursor-pointer max-lg:basis-1/3"
+                                                className="text-white hover:text-blue-600 cursor-pointer max-lg:basis-1/3"
                                                 onClick={scrollToTheElement}
                                             >
                                                 <div to="/services/digital-transformation">
@@ -143,13 +142,13 @@ export default function Services({ children }) {
                                 >
                                     {/* Header Section */}
                                     {/* <div className="bg-blue-800/10 p-8 rounded-lg shadow-lg mb-8">
-                                        <h2 className="text-yellow-400 text-lg uppercase tracking-wide">
+                                        <h2 className="text-black-400 text-lg uppercase tracking-wide">
                                             01 Digital Strategy
                                         </h2>
-                                        <h1 className="text-4xl font-bold mt-4 text-yellow-500/80">
+                                        <h1 className="text-4xl font-bold mt-4 text-black-500/80">
                                             The Roadmap to Your Growth
                                         </h1>
-                                        <p className="text-lg text-yellow-100/90 mt-4">
+                                        <p className="text-lg text-black-100/90 mt-4">
                                             Our data-powered insights and
                                             growth-centric strategies are
                                             designed to expand your customer
@@ -160,14 +159,14 @@ export default function Services({ children }) {
 
                                     {/* Scope Section */}
                                     <div className=" bg-gray-800/50 p-8 rounded-lg shadow-lg">
-                                        {/* <h3 className="text-2xl font-bold text-yellow-500 mb-4">
+                                        {/* <h3 className="text-2xl font-bold text-black-500 mb-4">
                                             Scope
                                         </h3> */}
                                         <div className="grid grid-cols-1">
                                             {/* Market and Buyer Analysis */}
                                             <article>
                                                 <svg
-                                                    className="mb-3 fill-yellow-500"
+                                                    className="mb-3 fill-blue-500"
                                                     xmlns="http://www.w3.org/2000/svg"
                                                     width={24}
                                                     height={24}
@@ -178,11 +177,11 @@ export default function Services({ children }) {
                                                         d="M13.01 12.508a2.5 2.5 0 0 0-3.502.482L1.797 23.16.203 21.952l7.71-10.17a4.5 4.5 0 1 1 7.172 5.437l-4.84 6.386-1.594-1.209 4.841-6.385a2.5 2.5 0 0 0-.482-3.503Z"
                                                     />
                                                 </svg>
-                                                <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-yellow-400">
+                                                <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-blue-400">
                                                     Communication & Creative
                                                     Strategy
                                                 </h3>
-                                                <p className="text-yellow-200/90">
+                                                <p className="text-blue-200/90">
                                                     We employ omni-channel
                                                     creative communication
                                                     strategy & growth strategy
@@ -201,7 +200,7 @@ export default function Services({ children }) {
                                             {/* Marketing Strategy */}
                                             <article>
                                                 <svg
-                                                    className="mb-3 fill-yellow-500"
+                                                    className="mb-3 fill-blue-500"
                                                     xmlns="http://www.w3.org/2000/svg"
                                                     width={24}
                                                     height={24}
@@ -212,10 +211,10 @@ export default function Services({ children }) {
                                                     />
                                                     <path d="M19 6H0v2h17v8H7v-6H5v8h19v-2h-5V6Z" />
                                                 </svg>
-                                                <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-yellow-400">
+                                                <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-blue-400">
                                                     Marketing Strategy
                                                 </h3>
-                                                <p className="text-yellow-200/90">
+                                                <p className="text-blue-200/90">
                                                     We build actionable and
                                                     technology-driven contextual
                                                     strategies around your
@@ -239,7 +238,7 @@ export default function Services({ children }) {
                                             {/* Communication & Creative Strategy */}
                                             <article>
                                                 <svg
-                                                    className="mb-3 fill-yellow-500"
+                                                    className="mb-3 fill-blue-500"
                                                     xmlns="http://www.w3.org/2000/svg"
                                                     width={24}
                                                     height={24}
@@ -250,10 +249,10 @@ export default function Services({ children }) {
                                                         d="m16.295 5.393 7.528 2.034-4.436 16.412L5.87 20.185l.522-1.93 11.585 3.132 3.392-12.55-5.597-1.514.522-1.93Z"
                                                     />
                                                 </svg>
-                                                <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-yellow-400">
+                                                <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-blue-400">
                                                     Market and Buyer Analysis
                                                 </h3>
-                                                <p className="text-yellow-200/90">
+                                                <p className="text-blue-200/90">
                                                     With in-depth research &
                                                     user segmentation supported
                                                     by online behaviour analysis

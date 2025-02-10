@@ -35,25 +35,26 @@ const FAQSection = () => {
     };
 
     return (
-        <div className="p-8 bg-gray-50">
-            <h2 className="text-3xl font-bold text-center mb-4">
+        <div className="p-8">
+            <h2 className="text-3xl font-bold text-center mb-4 text-blue-950">
                 FREQUENTLY ASKED QUESTIONS
             </h2>
-            <p className="text-center text-gray-600 mb-8">
+            <p className="text-center text-blue-900/70 mb-8">
                 Magnam dolores commodi suscipit. Necessitatibus eius consequatur
                 ex aliquid fuga.
             </p>
-            <div className="space-y-4 max-w-4xl mx-auto">
+            <div className="max-w-4xl mx-auto">
                 {faqData.map((item, index) => (
                     <Card key={index} className="overflow-hidden">
                         <div
                             onClick={() => handleToggle(index)}
-                            className="flex justify-between items-center cursor-pointer p-4 bg-white border-b border-gray-200 hover:bg-gray-100"
+                            className="flex justify-between items-start cursor-pointer p-4 hover:bg-gray-100"
                         >
-                            <h3 className="text-lg font-medium text-blue-600">
-                                <BsQuestionCircle /> {item.question}
+                            <h3 className="text-lg font-medium text-blue-600 flex items-center">
+                                <BsQuestionCircle />{" "}
+                                <span className="pl-3">{item.question}</span>
                             </h3>
-                            <span className="text-gray-400">
+                            <span className="text-blue-400">
                                 {expanded === index ? "\u25B2" : "\u25BC"}
                             </span>
                         </div>
@@ -62,10 +63,10 @@ const FAQSection = () => {
                                 <motion.div
                                     key="content"
                                     initial={{ opacity: 0, height: 0 }}
-                                    animate={{ opacity: 1, height: "auto" }}
+                                    animate={{ opacity: 1 }}
                                     exit={{ opacity: 0, height: 0 }}
-                                    transition={{ duration: 0.3 }}
-                                    className="p-4 bg-white text-gray-600"
+                                    transition={{ duration: 0.2, }}
+                                    className="pb-2 bg-white text-blue-900"
                                 >
                                     {item.answer}
                                 </motion.div>
