@@ -44,9 +44,42 @@ const newsItems = [
 ];
 
 const partners = [
-    { id: 1, name: "NIOT", logo: "niot.png", website: "#" },
-    { id: 2, name: "IIT Madras", logo: "iitm.png", website: "#" },
-    { id: 3, name: "BaySlope", logo: "bayslope.png", website: "#" },
+    {
+        id: 1,
+        name: "NIOT",
+        logo: "https://viryaparamita.onrender.com/img/clients/niot.png",
+        website: "#",
+    },
+    {
+        id: 2,
+        name: "IIT Madras",
+        logo: "https://viryaparamita.onrender.com/img/clients/IIT_Madras.png",
+        website: "#",
+    },
+    {
+        id: 3,
+        name: "University of Athens",
+        logo: "https://viryaparamita.onrender.com/img/clients/athens-university-of-economics-and-business-national-and-kapodistrian-university-of-athens-national-technical-university-of-athens-university-of-international-business-and-economics.png",
+        website: "#",
+    },
+    {
+        id: 4,
+        name: "IIT Kanpur",
+        logo: "https://viryaparamita.onrender.com/img/clients/IITK.png",
+        website: "#",
+    },
+    {
+        id: 5,
+        name: "T-Hub",
+        logo: "https://viryaparamita.onrender.com/img/clients/hyderabad-t-hub-startup-company-business-incubator-entrepreneurship-others-miscellaneous-text-trademark.png",
+        website: "#",
+    },
+    {
+        id: 6,
+        name: "Clim Accelerator",
+        logo: "	https://viryaparamita.onrender.com/img/clients/ClimAccelerator.png",
+        website: "#",
+    },
 ];
 
 export default function NewsPartnersPage() {
@@ -56,12 +89,41 @@ export default function NewsPartnersPage() {
                 initial={{ opacity: 0, y: -20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5 }}
-                className="text-center text-4xl font-extrabold text-blue-800 mb-6"
+                className="text-center text-4xl font-extrabold text-blue-800 mb-12"
             >
                 NEWS & PARTNERS
             </motion.h1>
 
-            <div className="max-w-6xl mx-auto">
+            <div className="max-w-7xl mx-auto mt-12">
+                <h2 className="text-2xl font-bold text-blue-700 mb-4">
+                    Our Partners
+                </h2>
+                <div className="flex flex-wrap justify-center gap-8">
+                    {partners.map((partner) => (
+                        <motion.a
+                            key={partner.id}
+                            href={partner.website}
+                            target="_blank"
+                            initial={{ opacity: 0, y: 20 }}
+                            animate={{ opacity: 1, y: 0 }}
+                            transition={{ duration: 0.5 }}
+                            whileHover={{ scale: 1.1 }}
+                            className="bg-white shadow-lg rounded-lg p-6 border border-blue-300 flex flex-col items-center w-1/6"
+                        >
+                            <img
+                                src={partner.logo}
+                                alt={partner.name}
+                                className="w-20 h-20 object-contain mb-2"
+                            />
+                            <span className="text-blue-800 font-semibold">
+                                {partner.name}
+                            </span>
+                        </motion.a>
+                    ))}
+                </div>
+            </div>
+
+            <div className="max-w-7xl mx-auto">
                 <h2 className="text-2xl font-bold text-blue-700 mb-4">
                     Latest News
                 </h2>
@@ -91,35 +153,6 @@ export default function NewsPartnersPage() {
                                 Read More
                             </a>
                         </motion.div>
-                    ))}
-                </div>
-            </div>
-
-            <div className="max-w-6xl mx-auto mt-12">
-                <h2 className="text-2xl font-bold text-blue-700 mb-4">
-                    Our Partners
-                </h2>
-                <div className="flex flex-wrap justify-center gap-8">
-                    {partners.map((partner) => (
-                        <motion.a
-                            key={partner.id}
-                            href={partner.website}
-                            target="_blank"
-                            initial={{ opacity: 0, y: 20 }}
-                            animate={{ opacity: 1, y: 0 }}
-                            transition={{ duration: 0.5 }}
-                            whileHover={{ scale: 1.1 }}
-                            className="bg-white shadow-lg rounded-lg p-6 border border-blue-300 flex flex-col items-center"
-                        >
-                            <img
-                                src={partner.logo}
-                                alt={partner.name}
-                                className="w-20 h-20 object-contain mb-2"
-                            />
-                            <span className="text-blue-800 font-semibold">
-                                {partner.name}
-                            </span>
-                        </motion.a>
                     ))}
                 </div>
             </div>

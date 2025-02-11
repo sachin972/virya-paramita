@@ -1,28 +1,28 @@
 // import Services from "../page";
-import React from "react";
 
-export default function DigitalMarketing({}) {
+export default function MarineCommunications({}) {
     return (
         <>
             {/* <Services /> */}
-            <div className="w-full p-8" id="digital-marketing">
+            <div className="w-full p-8" id="digital-transform">
                 {/* Header Section */}
                 <div className="bg-blue-800/10 p-8 rounded-lg shadow-lg mb-8">
                     <h2 className="text-black-400 text-lg uppercase tracking-wide">
-                        01 Digital Strategy
+                        04 Digital Transformation
                     </h2>
                     <h1 className="text-4xl font-bold mt-4 text-black-500/80">
-                        The Roadmap to Your Growth
+                        Grow with the changing demands
                     </h1>
                     <p className="text-lg text-black-100/90 mt-4">
-                        Our data-powered insights and growth-centric strategies
-                        are designed to expand your customer lifetime value and
-                        increase revenue in the long run.
+                        Transform your business by leveraging our expertise in
+                        cutting-edge digital technologies, experience creative
+                        design, app development, mobile app design and
+                        analytics.
                     </p>
                 </div>
 
                 {/* Scope Section */}
-                <div className=" bg-gray-800/50 p-8 rounded-lg shadow-lg">
+                <div className="bg-gray-800/50 p-8 rounded-lg shadow-lg">
                     <h3 className="text-2xl font-bold text-black-500 mb-4">
                         Scope
                     </h3>
@@ -42,17 +42,16 @@ export default function DigitalMarketing({}) {
                                 />
                             </svg>
                             <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-black-400">
-                                Communication & Creative Strategy
+                                Digital Transformation Services
                             </h3>
                             <p className="text-black-200/90">
-                                We employ omni-channel creative communication
-                                strategy & growth strategy defined by success
-                                metrics
+                                Architecturing a strong experience using the
+                                most effective technologies at optimized costs
                                 <br />
-                                Our creative strategies map specific messaging
-                                for your defined audiences and create
-                                exceptional experiences in the process, all with
-                                pre-determined success metrics in hand.
+                                we utilize frontend technologies, backend
+                                technologies, databases, CMS and Ecom platforms,
+                                marketing & advertising and analytics platforms
+                                to solve complex business problems.
                             </p>
                         </article>
 
@@ -71,19 +70,18 @@ export default function DigitalMarketing({}) {
                                 <path d="M19 6H0v2h17v8H7v-6H5v8h19v-2h-5V6Z" />
                             </svg>
                             <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-black-400">
-                                Marketing Strategy
+                                Improved efficiency and customer satisfaction
                             </h3>
                             <p className="text-black-200/90">
-                                We build actionable and technology-driven
-                                contextual strategies around your audience
+                                Improving efficiency by pursuing innovative
+                                marketing solutions and disruptive offerings
                                 <br />
-                                In a series of short experiments that allow us
-                                to go live faster and see what’s working faster,
-                                then scaling it to achieve long-term results.
-                                This blueprint attracts, engages and converts
-                                your target audience into leads, and also goes
-                                forward to nurture and retain them for long-term
-                                value.
+                                Our digital transformation experts assess your
+                                customers accurately on their current digital
+                                maturity so that we can exceed their
+                                expectations with a customised online
+                                experience, ultimately increasing your company’s
+                                efficiency.
                             </p>
                         </article>
 
@@ -102,16 +100,14 @@ export default function DigitalMarketing({}) {
                                 />
                             </svg>
                             <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-black-400">
-                                Market and Buyer Analysis
+                                Responsive Mobile-first solutions
                             </h3>
                             <p className="text-black-200/90">
-                                With in-depth research & user segmentation
-                                supported by online behaviour analysis
+                                By conceptualizing, designing, building and
+                                maintaining custom applications for web & mobile
                                 <br />
-                                our growth marketing strategy defines your
-                                consumer’s behaviour and path to purchase. This
-                                analysis helps us nurture your customers across
-                                the marketing funnel.
+                                We provide customized mobile app development
+                                services to enhance the user experience.
                             </p>
                         </article>
                     </div>

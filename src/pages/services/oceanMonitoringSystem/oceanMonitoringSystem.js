@@ -1,20 +1,20 @@
 // import Services from "../page";
 import React from "react";
 
-export default function ContentAndEngineering({}) {
+export default function OceanMonitoringSystem({}) {
     return (
         <>
             {/* <Services /> */}
             <div className="w-full p-8" id="content-and-engg">
                 {/* Header Section */}
                 <div className="bg-blue-800/10 p-8 rounded-lg shadow-lg mb-8">
-                    <h2 className="text-yellow-400 text-lg uppercase tracking-wide">
+                    <h2 className="text-white text-lg uppercase tracking-wide">
                         02 Content & Engineering Marketing
                     </h2>
-                    <h1 className="text-4xl font-bold mt-4 text-yellow-500/80">
+                    <h1 className="text-4xl font-bold mt-4 text-white">
                         The Essence of Sustainable Growth
                     </h1>
-                    <p className="text-lg text-yellow-100/90 mt-4">
+                    <p className="text-lg text-white mt-4">
                         In a world full of distractions where customers have the
                         last say, acquisition is only the start. It will mean
                         nothing if people don’t stick to your product or
@@ -25,14 +25,14 @@ export default function ContentAndEngineering({}) {
 
                 {/* Scope Section */}
                 <div className="bg-gray-800/50 p-8 rounded-lg shadow-lg">
-                    <h3 className="text-2xl font-bold text-yellow-500 mb-4">
+                    <h3 className="text-2xl font-bold text-white mb-4">
                         Scope
                     </h3>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                         {/* Market and Buyer Analysis */}
                         <article>
                             <svg
-                                className="mb-3 fill-yellow-500"
+                                className="mb-3 fill-black-500"
                                 xmlns="http://www.w3.org/2000/svg"
                                 width={24}
                                 height={24}
