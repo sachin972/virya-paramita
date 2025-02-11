@@ -5,7 +5,12 @@ import "./App.css";
 
 import React, { useEffect } from "react";
 import Header from "./components/ui/header";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import {
+    BrowserRouter as Router,
+    Route,
+    Routes,
+    useLocation,
+} from "react-router-dom";
 import Footer from "./components/ui/footer";
 import Home from "./pages/home";
 import Services from "./pages/services/Services";
@@ -22,6 +27,7 @@ import OceanMonitoringSystem from "./pages/services/oceanMonitoringSystem/oceanM
 import SubSeaApllications from "./pages/services/subSeaApplications/subSeaApplications";
 import MarineCommunications from "./pages/services/marineCommunications/marineCommunications";
 import OceanInspectionSystem from "./pages/services/oceanInspectionSystem/oceanInspectionSystem";
+import ScrollToTop from "./components/ScrollToTop";
 
 export default function App() {
     useEffect(() => {
@@ -38,6 +44,7 @@ export default function App() {
                 className={`font-inter text-base text-gray-200 antialiased bg-gradient-to-r from-blue-50 to-cyan-200 w-full`} // TO be fixed: ${inter.variable} ${nacelle.variable}
             >
                 <div className="flex min-h-screen flex-col overflow-hidden supports-[overflow:clip]:overflow-clip">
+                    <ScrollToTop />
                     <Header />
                     <Routes>
                         <Route path="/" Component={Home} />

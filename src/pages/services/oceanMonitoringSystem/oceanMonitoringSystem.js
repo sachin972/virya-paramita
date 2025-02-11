@@ -9,17 +9,19 @@ export default function OceanMonitoringSystem({}) {
                 {/* Header Section */}
                 <div className="bg-blue-800/10 p-8 rounded-lg shadow-lg mb-8">
                     <h2 className="text-white text-lg uppercase tracking-wide">
-                        02 Content & Engineering Marketing
+                        Ocean Monitoring System
                     </h2>
                     <h1 className="text-4xl font-bold mt-4 text-white">
                         The Essence of Sustainable Growth
                     </h1>
                     <p className="text-lg text-white mt-4">
-                        In a world full of distractions where customers have the
-                        last say, acquisition is only the start. It will mean
-                        nothing if people don’t stick to your product or
-                        service. Our content & engagement marketing helps you
-                        address this vital factor to achieve sustainable growth.
+                        Our Ocean monitoring system consists of a set of sensors
+                        to suits the customer's needs. It can be customized
+                        depending upon water depth, project duration, and other
+                        factors with a Sindhuja-1. Suitable applications include
+                        metocean data collection, fish/mammal tracking, subsea
+                        vessel detection, marine environment analysis, and many
+                        more.
                     </p>
                 </div>
 
