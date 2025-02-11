@@ -5,22 +5,22 @@ const teamMembers = [
     {
         name: "Sai Arun Kiran Karthik S",
         role: "Chief Executive Officer",
-        social: ["twitter", "facebook", "instagram", "linkedin"],
+        // social: ["twitter", "facebook", "instagram", "linkedin"],
     },
     {
         name: "Bhaskara Rao S",
         role: "Finance & Operations Head",
-        social: ["twitter", "facebook", "instagram", "linkedin"],
+        // social: ["twitter", "facebook", "instagram", "linkedin"],
     },
     {
         name: "Harish Reddy S",
         role: "Marketing Head",
-        social: ["twitter", "facebook", "instagram", "linkedin"],
+        // social: ["twitter", "facebook", "instagram", "linkedin"],
     },
     {
         name: "Jigyasu Kumar Verman",
         role: "HR Head",
-        social: ["twitter", "facebook", "instagram", "linkedin"],
+        // social: ["twitter", "facebook", "instagram", "linkedin"],
     },
 ];
 
@@ -29,19 +29,19 @@ const mentors = [
         name: "Dr. Abdus Samad",
         role: "IIT MADRAS Mentor",
         expertise: "Wave Energy",
-        social: ["twitter", "facebook", "instagram", "linkedin"],
+        // social: ["twitter", "facebook", "instagram", "linkedin"],
     },
     {
         name: "Dr. Abhijit Chaudhuri",
         role: "IIT MADRAS Mentor",
         expertise: "Desalination",
-        social: ["twitter", "facebook", "instagram", "linkedin"],
+        // social: ["twitter", "facebook", "instagram", "linkedin"],
     },
     {
         name: "Dr. A R Paul",
         role: "MNNIT ALLAHABAD Mentor",
         expertise: "Fluid Mechanics",
-        social: ["twitter", "facebook", "instagram", "linkedin"],
+        // social: ["twitter", "facebook", "instagram", "linkedin"],
     },
 ];
 
@@ -50,37 +50,37 @@ const researchers = [
         name: "Dr. Abdus Samad",
         role: "IIT MADRAS Mentor",
         expertise: "Wave Energy",
-        social: ["twitter", "facebook", "instagram", "linkedin"],
+        // social: ["twitter", "facebook", "instagram", "linkedin"],
     },
     {
         name: "Dr. Abhijit Chaudhuri",
         role: "IIT MADRAS Mentor",
         expertise: "Desalination",
-        social: ["twitter", "facebook", "instagram", "linkedin"],
+        // social: ["twitter", "facebook", "instagram", "linkedin"],
     },
     {
         name: "Dr. A R Paul",
         role: "MNNIT ALLAHABAD Mentor",
         expertise: "Fluid Mechanics",
-        social: ["twitter", "facebook", "instagram", "linkedin"],
+        // social: ["twitter", "facebook", "instagram", "linkedin"],
     },
     {
         name: "Dr. Abdus Samad",
         role: "IIT MADRAS Mentor",
         expertise: "Wave Energy",
-        social: ["twitter", "facebook", "instagram", "linkedin"],
+        // social: ["twitter", "facebook", "instagram", "linkedin"],
     },
     {
         name: "Dr. Abhijit Chaudhuri",
         role: "IIT MADRAS Mentor",
         expertise: "Desalination",
-        social: ["twitter", "facebook", "instagram", "linkedin"],
+        // social: ["twitter", "facebook", "instagram", "linkedin"],
     },
     {
         name: "Dr. A R Paul",
         role: "MNNIT ALLAHABAD Mentor",
         expertise: "Fluid Mechanics",
-        social: ["twitter", "facebook", "instagram", "linkedin"],
+        // social: ["twitter", "facebook", "instagram", "linkedin"],
     },
 ];
 
@@ -89,19 +89,19 @@ const webManagers = [
         name: "Dr. Abdus Samad",
         role: "IIT MADRAS Mentor",
         expertise: "Wave Energy",
-        social: ["twitter", "facebook", "instagram", "linkedin"],
+        // social: ["twitter", "facebook", "instagram", "linkedin"],
     },
     {
         name: "Dr. Abhijit Chaudhuri",
         role: "IIT MADRAS Mentor",
         expertise: "Desalination",
-        social: ["twitter", "facebook", "instagram", "linkedin"],
+        // social: ["twitter", "facebook", "instagram", "linkedin"],
     },
     {
         name: "Dr. A R Paul",
         role: "MNNIT ALLAHABAD Mentor",
         expertise: "Fluid Mechanics",
-        social: ["twitter", "facebook", "instagram", "linkedin"],
+        // social: ["twitter", "facebook", "instagram", "linkedin"],
     },
 ];
 
@@ -116,20 +116,33 @@ const Card = ({ name, role, expertise, social }) => (
     <motion.div
         whileHover={{ scale: 1.05 }}
         whileTap={{ scale: 0.95 }}
-        className="bg-white p-5 rounded-2xl shadow-lg border border-gray-200 transition-all"
+        className="bg-white p-5 rounded-2xl shadow-lg border border-gray-200 transition-all flex justify-between"
     >
-        <h3 className="text-lg font-bold text-blue-700">{name}</h3>
-        <p className="text-gray-600">{role}</p>
-        {expertise && (
-            <p className="text-sm text-gray-500">Expertise: {expertise}</p>
-        )}
-        <div className="flex gap-3 mt-3">
+        <div className="overflow-hidden w-1/3 rounded-full">
+            <img
+                src="https://viryaparamita.onrender.com/img/team/Deveshsingh.jpeg"
+                className="w-full h-auto"
+                alt=""
+            />
+        </div>
+        <div className="flex flex-col justify-evenly w-2/3 px-5">
+            <h3 className="text-lg font-bold text-blue-700">{name}</h3>
+            <div>
+                <p className="text-gray-600">{role}</p>
+                {expertise && (
+                    <p className="text-sm text-gray-500">
+                        Expertise: {expertise}
+                    </p>
+                )}
+            </div>
+        </div>
+        {/* <div className="flex gap-3 mt-3">
             {social.map((platform) => (
                 <a key={platform} href="#" className="text-lg">
                     {socialIcons[platform]}
                 </a>
             ))}
-        </div>
+        </div> */}
     </motion.div>
 );
 

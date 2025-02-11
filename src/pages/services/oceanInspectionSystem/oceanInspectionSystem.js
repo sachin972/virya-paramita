@@ -1,6 +1,6 @@
 // import Services from "../page";
 
-export default function ProductBasedSolution({}) {
+export default function OceanInspectionSystem({}) {
     return (
         <>
             {/* <Services /> */}

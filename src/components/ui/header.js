@@ -359,6 +359,10 @@ export default function Header() {
                                 { name: "Team", route: "team" },
                                 { name: "Contact", route: "contact" },
                                 { name: "About Us", route: "about" },
+                                {
+                                    name: "News & Partners",
+                                    route: "news-and-partners",
+                                },
                                 { name: "IEW 2025", route: "iew-2025" },
                             ].map((item) => (
                                 <li key={item.name}>

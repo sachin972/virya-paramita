@@ -22,17 +22,17 @@ export default function Footer() {
                         alt="Footer illustration"
                     />
                 </div>
-                <div className="grid grid-cols-2 justify-between gap-12 py-8 sm:grid-rows-[auto_auto] md:grid-cols-4 md:grid-rows-[auto_auto] md:py-12 lg:grid-cols-[repeat(4,minmax(0,140px))_1fr] lg:grid-rows-1 xl:gap-20">
+                <div className="grid grid-cols-2 justify-between gap-0 py-8 md:py-12 lg:grid-rows-1 xl:gap-20">
                     {/* 1st block */}
 
                     <div className="space-y-2">
-                        <h3 className="text-sm font-medium text-blue-950">
+                        <h3 className="text-sm font-extrabold text-blue-950">
                             Useful Links
                         </h3>
                         <ul className="space-y-2 text-sm">
                             <li>
                                 <Link
-                                    className="text-blue-950 transition hover:text-blue-950/65"
+                                    className="text-blue-950 font-bold transition hover:text-blue-950/65"
                                     to="/"
                                 >
                                     Home
@@ -48,7 +48,7 @@ export default function Footer() {
                             </li> */}
                             <li>
                                 <Link
-                                    className="text-blue-950 transition hover:text-blue-950/65"
+                                    className="text-blue-950 font-bold transition hover:text-blue-950/65"
                                     to="/about"
                                 >
                                     About Us
@@ -56,23 +56,23 @@ export default function Footer() {
                             </li>
                             <li>
                                 <Link
-                                    className="text-blue-950 transition hover:text-blue-950/65"
-                                    to="/privacy-policy"
+                                    className="text-blue-950 font-bold transition hover:text-blue-950/65"
+                                    to="/services"
                                 >
                                     Services
                                 </Link>
                             </li>
                             <li>
                                 <Link
-                                    className="text-blue-950 transition hover:text-blue-950/65"
-                                    to="/privacy-policy"
+                                    className="text-blue-950 font-bold transition hover:text-blue-950/65"
+                                    to="/terms"
                                 >
                                     Terms of Policy
                                 </Link>
                             </li>
                             <li>
                                 <Link
-                                    className="text-blue-950 transition hover:text-blue-950/65"
+                                    className="text-blue-950 font-bold transition hover:text-blue-950/65"
                                     to="/privacy-policy"
                                 >
                                     Privacy Policy
@@ -87,13 +87,13 @@ export default function Footer() {
                             <Logo height={170} width={170} />
                         </div>
                         <div className="text-xs">
-                            <p className="mb-3 text-blue-950">
+                            <p className="mb-3 font-bold text-blue-950">
                                 © viryaparamita.com
                             </p>
                             <ul className="inline-flex gap-2">
                                 <li>
                                     <a
-                                        className="flex items-center justify-center text-blue-950 transition"
+                                        className="flex items-center justify-center font-bold text-blue-950 transition"
                                         href="#0"
                                         aria-label="Twitter"
                                     >
