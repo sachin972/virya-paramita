@@ -41,7 +41,7 @@ export default function App() {
     return (
         <Router>
             <div
-                className={`font-inter text-base text-gray-200 antialiased bg-gradient-to-r from-blue-50 to-cyan-200 w-full`} // TO be fixed: ${inter.variable} ${nacelle.variable}
+                className={`font-inter text-base text-gray-200 antialiased bg-gradient-to-r from-cyan-500 to-blue-500 w-full`} // TO be fixed: ${inter.variable} ${nacelle.variable}
             >
                 <div className="flex min-h-screen flex-col overflow-hidden supports-[overflow:clip]:overflow-clip">
                     <ScrollToTop />
