@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 export default function Footer() {
     return (
         <footer className="bg-gradient-to-b from-blue-200  to-blue-700">
-            <div className="relative mx-auto max-w-6xl px-4 sm:px-6">
+            <div className="relative mx-auto px-4 sm:px-6">
                 {/* Footer illustration */}
                 <div
                     className="pointer-events-none absolute bottom-0 left-1/2 z-10 -translate-x-1/2"
@@ -22,14 +22,14 @@ export default function Footer() {
                         alt="Footer illustration"
                     />
                 </div>
-                <div className="grid grid-cols-2 justify-between gap-0 py-8 md:py-12 lg:grid-rows-1 xl:gap-20">
+                <div className="grid grid-cols-2 justify-between mx-10 py-8 max-lg:grid-cols-1">
                     {/* 1st block */}
 
-                    <div className="space-y-2">
-                        <h3 className="text-sm font-extrabold text-blue-950">
+                    <div className="space-y-2 lg:justify-self-start">
+                        <h3 className="text-sm font-extrabold text-blue-950 text-center">
                             Useful Links
                         </h3>
-                        <ul className="space-y-2 text-sm">
+                        <ul className="space-y-2 text-sm items-center text-center">
                             <li>
                                 <Link
                                     className="text-blue-950 font-bold transition hover:text-blue-950/65"
@@ -82,11 +82,11 @@ export default function Footer() {
                     </div>
 
                     {/* 5th block */}
-                    <div className="col-span-2 md:col-span-4 lg:col-span-1 lg:text-center">
-                        <div className="mb-1">
+                    <div className="col-span-2 md:col-span-4 lg:col-span-1 lg:text-center lg:justify-self-end">
+                        <div className="mb-1 text-center">
                             <Logo height={170} width={170} />
                         </div>
-                        <div className="text-xs">
+                        <div className="text-xs text-center">
                             <p className="mb-3 font-bold text-blue-950">
                                 © viryaparamita.com
                             </p>

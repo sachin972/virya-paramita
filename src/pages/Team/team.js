@@ -4,104 +4,128 @@ import { FaTwitter, FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa";
 const teamMembers = [
     {
         name: "Sai Arun Kiran Karthik S",
-        role: "Chief Executive Officer",
+        role: ["Chief Executive Officer"],
         // social: ["twitter", "facebook", "instagram", "linkedin"],
+        image: "./images/sai_arun.jpeg",
     },
     {
         name: "Bhaskara Rao S",
-        role: "Finance & Operations Head",
+        role: ["Finance & Operations Head"],
         // social: ["twitter", "facebook", "instagram", "linkedin"],
+        image: "./images/bhaskar_rao.jpeg",
     },
     {
         name: "Harish Reddy S",
-        role: "Marketing Head",
+        role: ["Marketing Head"],
         // social: ["twitter", "facebook", "instagram", "linkedin"],
+        image: "./images/harish_reddy.jpeg",
     },
     {
         name: "Jigyasu Kumar Verman",
-        role: "HR Head",
+        role: ["HR Head"],
         // social: ["twitter", "facebook", "instagram", "linkedin"],
+        image: "./images/jigyasu_kumar.jpeg",
     },
 ];
 
 const mentors = [
     {
         name: "Dr. Abdus Samad",
-        role: "IIT MADRAS Mentor",
+        role: ["IIT MADRAS Mentor"],
         expertise: "Wave Energy",
         // social: ["twitter", "facebook", "instagram", "linkedin"],
+        image: "./images/dr_abdus_samad.jpeg",
     },
     {
         name: "Dr. Abhijit Chaudhuri",
-        role: "IIT MADRAS Mentor",
+        role: ["IIT MADRAS Mentor"],
         expertise: "Desalination",
         // social: ["twitter", "facebook", "instagram", "linkedin"],
+        image: "./images/dr_abhijeet.jpeg",
     },
     {
         name: "Dr. A R Paul",
-        role: "MNNIT ALLAHABAD Mentor",
+        role: ["MNNIT ALLAHABAD Mentor"],
         expertise: "Fluid Mechanics",
         // social: ["twitter", "facebook", "instagram", "linkedin"],
+        image: "./images/dr_a_r_paul.jpeg",
     },
 ];
 
 const researchers = [
     {
-        name: "Dr. Abdus Samad",
-        role: "IIT MADRAS Mentor",
-        expertise: "Wave Energy",
+        name: "Mohd Abdul Rehman Alam",
+        role: ["Ocean Engineering"],
+        // expertise: "Wave Energy",
+        image: "https://viryaparamita.onrender.com/img/team/abdu.jpg",
         // social: ["twitter", "facebook", "instagram", "linkedin"],
     },
     {
-        name: "Dr. Abhijit Chaudhuri",
-        role: "IIT MADRAS Mentor",
-        expertise: "Desalination",
+        name: "Anulekha Majumdar",
+        role: ["Ocean Energy (Wave Energy Converter)"],
+        // expertise: "Desalination",
         // social: ["twitter", "facebook", "instagram", "linkedin"],
+        image: "./images/anulekha_majumdara.jpeg",
     },
     {
-        name: "Dr. A R Paul",
-        role: "MNNIT ALLAHABAD Mentor",
-        expertise: "Fluid Mechanics",
+        name: "Sumar Kumar",
+        role: [
+            "Ocean Engineering",
+            "Wave Energy Converter MS by Research - IIT Madras",
+        ],
+        // expertise: "Fluid Mechanics",
         // social: ["twitter", "facebook", "instagram", "linkedin"],
+        image: "./images/suman_kumar.jpeg",
     },
     {
-        name: "Dr. Abdus Samad",
-        role: "IIT MADRAS Mentor",
-        expertise: "Wave Energy",
+        name: "Prashant Kumar",
+        role: ["Ph.D. MArine Energy"],
+        // expertise: "Wave Energy",
         // social: ["twitter", "facebook", "instagram", "linkedin"],
+        image: "https://viryaparamita.onrender.com/img/team/prashant.jpg",
     },
     {
-        name: "Dr. Abhijit Chaudhuri",
-        role: "IIT MADRAS Mentor",
-        expertise: "Desalination",
+        name: "Devesh Singh",
+        role: ["Wave Energy Research Scholar"],
+        // expertise: "Desalination",
         // social: ["twitter", "facebook", "instagram", "linkedin"],
+        image: "https://viryaparamita.onrender.com/img/team/Deveshsingh.jpeg",
     },
     {
-        name: "Dr. A R Paul",
-        role: "MNNIT ALLAHABAD Mentor",
-        expertise: "Fluid Mechanics",
+        name: "Kathyayani Nandakumar",
+        role: ["Ocean Engineering"],
+        // expertise: "Fluid Mechanics",
         // social: ["twitter", "facebook", "instagram", "linkedin"],
+        image: "https://viryaparamita.onrender.com/img/team/Kathyayani.jpg",
     },
 ];
 
 const webManagers = [
     {
-        name: "Dr. Abdus Samad",
-        role: "IIT MADRAS Mentor",
-        expertise: "Wave Energy",
+        name: "Sameer Verma",
+        role: ["Student at IIT Madras"],
+        // expertise: "Wave Energy",
         // social: ["twitter", "facebook", "instagram", "linkedin"],
+        image: "./images/sameer_verma.jpeg",
     },
     {
-        name: "Dr. Abhijit Chaudhuri",
-        role: "IIT MADRAS Mentor",
-        expertise: "Desalination",
+        name: "Shiva Kumar",
+        role: ["Student at IIT Madras"],
+        // expertise: "Desalination",
         // social: ["twitter", "facebook", "instagram", "linkedin"],
+        image: "./images/shiva_kumar.jpeg",
     },
     {
-        name: "Dr. A R Paul",
-        role: "MNNIT ALLAHABAD Mentor",
-        expertise: "Fluid Mechanics",
+        name: "Sheikh Abdul Nisar",
+        role: ["Student at IIT Madras"],
+        // expertise: "Fluid Mechanics",
         // social: ["twitter", "facebook", "instagram", "linkedin"],
+        image: "https://viryaparamita.onrender.com/img/team/abdul's%20pic.jpg",
+    },
+    {
+        name: "Sachin Tripathi",
+        role: ["Software Engineer"],
+        image: "https://media.licdn.com/dms/image/v2/D4D03AQHzV2BKOJrzpA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1687064928651?e=1744848000&v=beta&t=ugsz3X1mLMNtuFelOGreMXdZmoyAifqbL27kqjTybwI",
     },
 ];
 
@@ -112,23 +136,23 @@ const socialIcons = {
     linkedin: <FaLinkedin className="text-blue-500 hover:text-blue-700" />,
 };
 
-const Card = ({ name, role, expertise, social }) => (
+const Card = ({ name, role, expertise, image }) => (
     <motion.div
         whileHover={{ scale: 1.05 }}
         whileTap={{ scale: 0.95 }}
         className="bg-white p-5 rounded-2xl shadow-lg border border-gray-200 transition-all flex justify-between"
     >
         <div className="overflow-hidden w-1/3 rounded-full">
-            <img
-                src="https://viryaparamita.onrender.com/img/team/Deveshsingh.jpeg"
-                className="w-full h-auto"
-                alt=""
-            />
+            <img src={image} className="w-full h-auto" alt="" />
         </div>
         <div className="flex flex-col justify-evenly w-2/3 px-5">
             <h3 className="text-lg font-bold text-blue-700">{name}</h3>
             <div>
-                <p className="text-gray-600">{role}</p>
+                <p className="text-gray-600">
+                    {role.map((rl) => (
+                        <div>{rl}</div>
+                    ))}
+                </p>
                 {expertise && (
                     <p className="text-sm text-gray-500">
                         Expertise: {expertise}

@@ -9,15 +9,17 @@ export default function SubSeaApllications({}) {
                 {/* Header Section */}
                 <div className="bg-blue-800/10 p-8 rounded-lg shadow-lg mb-8">
                     <h2 className="text-black-400 text-lg uppercase tracking-wide">
-                        01 Digital Strategy
+                        SubSea Applications
                     </h2>
                     <h1 className="text-4xl font-bold mt-4 text-black-500/80">
                         The Roadmap to Your Growth
                     </h1>
                     <p className="text-lg text-black-100/90 mt-4">
-                        Our data-powered insights and growth-centric strategies
-                        are designed to expand your customer lifetime value and
-                        increase revenue in the long run.
+                        A VPE subsea power solution offers reliable,
+                        uninterrupted, low-carbon, and autonomous energy supply
+                        to various subsea applications. Our unique system can
+                        supply fully integrated AC/DC power requirements for a
+                        range of applications.
                     </p>
                 </div>
 

@@ -8,16 +8,19 @@ export default function MarineCommunications({}) {
                 {/* Header Section */}
                 <div className="bg-blue-800/10 p-8 rounded-lg shadow-lg mb-8">
                     <h2 className="text-black-400 text-lg uppercase tracking-wide">
-                        04 Digital Transformation
+                        Marine Communications
                     </h2>
                     <h1 className="text-4xl font-bold mt-4 text-black-500/80">
                         Grow with the changing demands
                     </h1>
                     <p className="text-lg text-black-100/90 mt-4">
-                        Transform your business by leveraging our expertise in
-                        cutting-edge digital technologies, experience creative
-                        design, app development, mobile app design and
-                        analytics.
+                        Sindhuja-1 can supply uninterrupted power to the
+                        satellite communication system to keep vessels connected
+                        from anywhere in the world. The system will allow
+                        vessels to be always on, connected to maritime
+                        electronic highways, particularly during passages
+                        through more sensitive high traffic coastal areas and
+                        vessel traffic schemes.
                     </p>
                 </div>
 

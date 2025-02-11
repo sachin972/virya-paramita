@@ -8,16 +8,18 @@ export default function OceanInspectionSystem({}) {
                 {/* Header Section */}
                 <div className="bg-blue-800/10 p-8 rounded-lg shadow-lg mb-8">
                     <h2 className="text-black-400 text-lg uppercase tracking-wide">
-                        06 Product Based Solutions
+                        Ocean Inspection System
                     </h2>
                     <h1 className="text-4xl font-bold mt-4 text-black-500/80">
                         Grow your e-commerce business, ground up
                     </h1>
                     <p className="text-lg text-black-100/90 mt-4">
-                        Our end-to-end e-commerce solutions guarantee your
-                        business growth through long-term growth-focused
-                        strategy, comprehensive technical support from our
-                        in-house team and expert consultation & assistance.
+                        Our system can provide a continuous power supply to the
+                        devices installed for the safety and security of the
+                        ocean environment without any need for other external
+                        power sources. We provide autonomous monitoring that
+                        enables enforcement of maritime law in dangerous and
+                        remote ocean environments to improve safety at sea.
                     </p>
                 </div>
 
