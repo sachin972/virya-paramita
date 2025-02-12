@@ -9,6 +9,47 @@ import { ArrowRight } from "lucide-react";
 import PDF from "./pdf.pdf";
 import { Worker, Viewer } from "@react-pdf-viewer/core";
 import "@react-pdf-viewer/core/lib/styles/index.css";
+import Gallery from "../../components/gallery";
+import SponsorsComponent from "../../components/sponsers";
+
+const partners = [
+    {
+        id: 1,
+        name: "NIOT",
+        logo: "https://viryaparamita.onrender.com/img/clients/niot.png",
+        website: "#",
+    },
+    {
+        id: 2,
+        name: "IIT Madras",
+        logo: "https://viryaparamita.onrender.com/img/clients/IIT_Madras.png",
+        website: "#",
+    },
+    {
+        id: 3,
+        name: "University of Athens",
+        logo: "https://viryaparamita.onrender.com/img/clients/athens-university-of-economics-and-business-national-and-kapodistrian-university-of-athens-national-technical-university-of-athens-university-of-international-business-and-economics.png",
+        website: "#",
+    },
+    {
+        id: 4,
+        name: "IIT Kanpur",
+        logo: "https://viryaparamita.onrender.com/img/clients/IITK.png",
+        website: "#",
+    },
+    {
+        id: 5,
+        name: "T-Hub",
+        logo: "https://viryaparamita.onrender.com/img/clients/hyderabad-t-hub-startup-company-business-incubator-entrepreneurship-others-miscellaneous-text-trademark.png",
+        website: "#",
+    },
+    {
+        id: 6,
+        name: "Clim Accelerator",
+        logo: "	https://viryaparamita.onrender.com/img/clients/ClimAccelerator.png",
+        website: "#",
+    },
+];
 
 const IndiaEnergyWeek = () => {
     return (
@@ -97,20 +138,8 @@ const IndiaEnergyWeek = () => {
                     </CardContent>
                 </motion.div>
             </div>
-            <div
-                className="mx-auto"
-                style={{
-                    height: "600px",
-                    width: "70%",
-                    border: "1px solid #ddd",
-                }}
-            >
-                <Worker
-                    workerUrl={`https://unpkg.com/pdfjs-dist@3.9.179/build/pdf.worker.min.js`}
-                >
-                    <Viewer fileUrl={PDF} defaultScale={1} initialPage={1} />
-                </Worker>
-            </div>
+            <SponsorsComponent />
+            <Gallery />
         </div>
     );
 };

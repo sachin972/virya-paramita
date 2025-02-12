@@ -12,11 +12,11 @@ export default function Logo({ height, width }) {
     return (
         <Link href="/" className="inline-flex shrink-0" aria-label="Cruip">
             <img
-            className="max-w-full"
+                className="max-w-full"
                 src="/images/virya-logo-removebg-preview.png"
                 alt="Cruip Logo"
-                width={width*1.5}
-                height={height}
+                width={width*1.25}
+                height={height*1.25}
             />
         </Link>
     );
