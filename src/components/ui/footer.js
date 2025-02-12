@@ -70,14 +70,14 @@ export default function Footer() {
                                     Terms of Policy
                                 </Link>
                             </li>
-                            <li>
+                            {/* <li>
                                 <Link
                                     className="text-blue-950 font-bold transition hover:text-blue-950/65"
                                     to="/privacy-policy"
                                 >
                                     Privacy Policy
                                 </Link>
-                            </li>
+                            </li> */}
                         </ul>
                     </div>
 

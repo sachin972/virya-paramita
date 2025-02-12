@@ -4,7 +4,7 @@ import { FaTwitter, FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa";
 const teamMembers = [
     {
         name: "Sai Arun Kiran Karthik S",
-        role: ["Chief Executive Officer"],
+        role: ["Founder and CEO"],
         // social: ["twitter", "facebook", "instagram", "linkedin"],
         image: "./images/sai_arun.jpeg",
     },
@@ -15,8 +15,8 @@ const teamMembers = [
         image: "./images/bhaskar_rao.jpeg",
     },
     {
-        name: "Harish Reddy S",
-        role: ["Marketing Head"],
+        name: "Ankit Kumar",
+        role: ["Co-Founder"],
         // social: ["twitter", "facebook", "instagram", "linkedin"],
         image: "./images/harish_reddy.jpeg",
     },
@@ -30,29 +30,88 @@ const teamMembers = [
 
 const mentors = [
     {
-        name: "Dr. Abdus Samad",
+        name: "Prof. Abdus Samad",
         role: ["IIT MADRAS Mentor"],
         expertise: "Wave Energy",
         // social: ["twitter", "facebook", "instagram", "linkedin"],
         image: "./images/dr_abdus_samad.jpeg",
     },
     {
-        name: "Dr. Abhijit Chaudhuri",
+        name: "Prof. Abhijit Chaudhuri",
         role: ["IIT MADRAS Mentor"],
         expertise: "Desalination",
         // social: ["twitter", "facebook", "instagram", "linkedin"],
         image: "./images/dr_abhijeet.jpeg",
     },
     {
-        name: "Dr. A R Paul",
+        name: "Prof. Akshay Ranjan Paul",
         role: ["MNNIT ALLAHABAD Mentor"],
         expertise: "Fluid Mechanics",
+        // social: ["twitter", "facebook", "instagram", "linkedin"],
+        image: "./images/dr_a_r_paul.jpeg",
+    },
+    {
+        name: "Dr. Ajay Kumar Maurya",
+        role: ["Presidency University, Bangalore"],
+        expertise: "Linear Generators",
         // social: ["twitter", "facebook", "instagram", "linkedin"],
         image: "./images/dr_a_r_paul.jpeg",
     },
 ];
 
 const researchers = [
+    {
+        name: "Dr. Suchitra",
+        role: ["Senior Scientist, Desalination and Hydrodynamics"],
+        // expertise: "Wave Energy",
+        image: "https://viryaparamita.onrender.com/img/team/abdu.jpg",
+        // social: ["twitter", "facebook", "instagram", "linkedin"],
+    },
+    {
+        name: "Prashant Kumar",
+        role: ["Ph.D. MArine Energy"],
+        // expertise: "Wave Energy",
+        // social: ["twitter", "facebook", "instagram", "linkedin"],
+        image: "https://viryaparamita.onrender.com/img/team/prashant.jpg",
+    },
+    {
+        name: "Satabda Chaudhari",
+        role: ["Research Scholar Power Electronics"],
+        // expertise: "Wave Energy",
+        image: "https://viryaparamita.onrender.com/img/team/abdu.jpg",
+        // social: ["twitter", "facebook", "instagram", "linkedin"],
+    },
+    {
+        name: "Devesh Singh",
+        role: ["PhD Marine Energy"],
+        // expertise: "Desalination",
+        // social: ["twitter", "facebook", "instagram", "linkedin"],
+        image: "https://viryaparamita.onrender.com/img/team/Deveshsingh.jpeg",
+    },
+    {
+        name: "Prateek Agrawal",
+        role: ["Business Strategy and Project Management"],
+        // expertise: "Wave Energy",
+        image: "https://viryaparamita.onrender.com/img/team/abdu.jpg",
+        // social: ["twitter", "facebook", "instagram", "linkedin"],
+    },
+    {
+        name: "Kathyayani Nandakumar",
+        role: ["Ocean Engineering"],
+        // expertise: "Fluid Mechanics",
+        // social: ["twitter", "facebook", "instagram", "linkedin"],
+        image: "https://viryaparamita.onrender.com/img/team/Kathyayani.jpg",
+    },
+    {
+        name: "Sumar Kumar",
+        role: [
+            "Ocean Engineering",
+            "Wave Energy Converter MS by Research - IIT Madras",
+        ],
+        // expertise: "Fluid Mechanics",
+        // social: ["twitter", "facebook", "instagram", "linkedin"],
+        image: "./images/suman_kumar.jpeg",
+    },
     {
         name: "Mohd Abdul Rehman Alam",
         role: ["Ocean Engineering"],
@@ -67,66 +126,45 @@ const researchers = [
         // social: ["twitter", "facebook", "instagram", "linkedin"],
         image: "./images/anulekha_majumdara.jpeg",
     },
-    {
-        name: "Sumar Kumar",
-        role: [
-            "Ocean Engineering",
-            "Wave Energy Converter MS by Research - IIT Madras",
-        ],
-        // expertise: "Fluid Mechanics",
-        // social: ["twitter", "facebook", "instagram", "linkedin"],
-        image: "./images/suman_kumar.jpeg",
-    },
-    {
-        name: "Prashant Kumar",
-        role: ["Ph.D. MArine Energy"],
-        // expertise: "Wave Energy",
-        // social: ["twitter", "facebook", "instagram", "linkedin"],
-        image: "https://viryaparamita.onrender.com/img/team/prashant.jpg",
-    },
-    {
-        name: "Devesh Singh",
-        role: ["Wave Energy Research Scholar"],
-        // expertise: "Desalination",
-        // social: ["twitter", "facebook", "instagram", "linkedin"],
-        image: "https://viryaparamita.onrender.com/img/team/Deveshsingh.jpeg",
-    },
-    {
-        name: "Kathyayani Nandakumar",
-        role: ["Ocean Engineering"],
-        // expertise: "Fluid Mechanics",
-        // social: ["twitter", "facebook", "instagram", "linkedin"],
-        image: "https://viryaparamita.onrender.com/img/team/Kathyayani.jpg",
-    },
 ];
 
 const webManagers = [
     {
-        name: "Sameer Verma",
-        role: ["Student at IIT Madras"],
-        // expertise: "Wave Energy",
-        // social: ["twitter", "facebook", "instagram", "linkedin"],
-        image: "./images/sameer_verma.jpeg",
-    },
-    {
-        name: "Shiva Kumar",
-        role: ["Student at IIT Madras"],
-        // expertise: "Desalination",
-        // social: ["twitter", "facebook", "instagram", "linkedin"],
-        image: "./images/shiva_kumar.jpeg",
-    },
-    {
-        name: "Sheikh Abdul Nisar",
-        role: ["Student at IIT Madras"],
-        // expertise: "Fluid Mechanics",
-        // social: ["twitter", "facebook", "instagram", "linkedin"],
-        image: "https://viryaparamita.onrender.com/img/team/abdul's%20pic.jpg",
+        name: "Anil Chaudhari",
+        role: ["IT Analyst"],
+        image: "https://media.licdn.com/dms/image/v2/D4D03AQHzV2BKOJrzpA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1687064928651?e=1744848000&v=beta&t=ugsz3X1mLMNtuFelOGreMXdZmoyAifqbL27kqjTybwI",
     },
     {
         name: "Sachin Tripathi",
-        role: ["Software Engineer"],
+        role: ["IT Analyst"],
         image: "https://media.licdn.com/dms/image/v2/D4D03AQHzV2BKOJrzpA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1687064928651?e=1744848000&v=beta&t=ugsz3X1mLMNtuFelOGreMXdZmoyAifqbL27kqjTybwI",
     },
+    {
+        name: "Ayush Tiwari",
+        role: ["IT Analyst"],
+        image: "https://media.licdn.com/dms/image/v2/D4D03AQHzV2BKOJrzpA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1687064928651?e=1744848000&v=beta&t=ugsz3X1mLMNtuFelOGreMXdZmoyAifqbL27kqjTybwI",
+    },
+    // {
+    //     name: "Sameer Verma",
+    //     role: ["Student at IIT Madras"],
+    //     // expertise: "Wave Energy",
+    //     // social: ["twitter", "facebook", "instagram", "linkedin"],
+    //     image: "./images/sameer_verma.jpeg",
+    // },
+    // {
+    //     name: "Shiva Kumar",
+    //     role: ["Student at IIT Madras"],
+    //     // expertise: "Desalination",
+    //     // social: ["twitter", "facebook", "instagram", "linkedin"],
+    //     image: "./images/shiva_kumar.jpeg",
+    // },
+    // {
+    //     name: "Sheikh Abdul Nisar",
+    //     role: ["Student at IIT Madras"],
+    //     // expertise: "Fluid Mechanics",
+    //     // social: ["twitter", "facebook", "instagram", "linkedin"],
+    //     image: "https://viryaparamita.onrender.com/img/team/abdul's%20pic.jpg",
+    // },
 ];
 
 const socialIcons = {
@@ -142,10 +180,10 @@ const Card = ({ name, role, expertise, image }) => (
         whileTap={{ scale: 0.95 }}
         className="bg-white p-5 rounded-2xl shadow-lg border border-gray-200 transition-all flex justify-between"
     >
-        <div className="overflow-hidden w-1/3 rounded-full">
+        {/* <div className="overflow-hidden w-1/3 rounded-full">
             <img src={image} className="w-full h-auto" alt="" />
-        </div>
-        <div className="flex flex-col justify-evenly w-2/3 px-5">
+        </div> */}
+        <div className="flex flex-col justify-evenly px-5">
             <h3 className="text-lg font-bold text-blue-700">{name}</h3>
             <div>
                 <p className="text-gray-600">

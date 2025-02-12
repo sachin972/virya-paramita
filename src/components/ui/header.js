@@ -323,15 +323,15 @@ export default function Header() {
             <header className="z-30 mt-0 w-full md:mt-0 sticky top-0">
                 <div className="mx-0 px-0 w-full">
                     <div
-                        className={`relative flex h-20 items-center justify-between gap-3 transition-all ${
+                        className={`relative flex h-24 items-center justify-between gap-3 transition-all ${
                             isScrolled
                                 ? "bg-gradient-to-r from-blue-200  to-blue-700"
                                 : "bg-transparent"
                         } px-3 before:pointer-events-none before:absolute before:inset-0 before:rounded-[inherit] before:border-transparent before:[background:linear-gradient(to_right,theme(colors.gray.800),theme(colors.gray.700),theme(colors.gray.800))_border-box] before:[mask-composite:exclude_!important] before:[mask:linear-gradient(white_0_0)_padding-box,_linear-gradient(white_0_0)] after:absolute after:inset-0 after:-z-10 `}
                     >
                         {/* Logo */}
-                        <div className="flex flex-1 items-center">
-                            <Logo height={115} width={115} />
+                        <div className="flex flex-1 items-start">
+                            <Logo height={200} width={200} />
                         </div>
 
                         {/* Hamburger Menu Button for Mobile */}
