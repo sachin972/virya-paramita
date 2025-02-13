@@ -866,13 +866,17 @@ export default function ContactPage() {
                             </div>
                         </div>
                         {/* Embedded Map */}
-                        <iframe
-                            className="w-full rounded-xl border-gray-300 h-64 mt-4"
-                            title="Location Map"
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.1717888306227!2d83.3012840743546!3d17.686815087835597!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a394313d788ae8f%3A0xa7d63ef7d1e16065!2sVirya%20Paramita%20Energy!5e0!3m2!1sen!2sin!4v1680877777053!5m2!1sen!2sin"
-                            allowFullScreen
-                            loading="lazy"
-                        />
+                        <div className="">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d486442.6838417936!2d83.294829!3d17.72892!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a3943270b3fffff%3A0xd2b5797f29e5920!2sVirya%20Paramita%20Energy!5e0!3m2!1sen!2sus!4v1739468699330!5m2!1sen!2sus"
+                                width="350"
+                                height="350"
+                                style={{ border: 0 }}
+                                allowfullscreen=""
+                                loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"
+                            ></iframe>
+                        </div>
                     </div>
                 </Card>
 

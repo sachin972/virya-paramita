@@ -6,11 +6,11 @@ const sponsors = [
         category: "Technology Partner",
         logos: [
             {
-                src: "https://viryaparamita.onrender.com/img/clients/IIT_Madras.png",
+                src: "/images/iitm.png",
                 alt: "IIT Madras",
             },
             {
-                src: "https://viryaparamita.onrender.com/img/clients/IITK.png",
+                src: "/images/iitk_incubation.png",
                 alt: "IIT Kanpur",
             },
         ],
@@ -18,14 +18,17 @@ const sponsors = [
     {
         category: "Incubation Partner",
         logos: [
-            { src: "/incubation.png", alt: "Startup Incubation IIT Kanpur" },
+            {
+                src: "/images/iitk_incub.png",
+                alt: "Startup Incubation IIT Kanpur",
+            },
         ],
     },
     {
         category: "Advisory Support",
         logos: [
             {
-                src: "https://viryaparamita.onrender.com/img/clients/niot.png",
+                src: "/images/niot.png",
                 alt: "NIOT Chennai",
             },
         ],
@@ -34,21 +37,25 @@ const sponsors = [
         category: "Acceleration Support",
         logos: [
             {
-                src: "https://viryaparamita.onrender.com/img/clients/ClimAccelerator.png",
+                src: "/images/clim_accel.png",
                 alt: "ClimAccelerator",
             },
-            { src: "/eit.png", alt: "EIT Climate-KIC" },
+            { src: "/images/eit.png", alt: "EIT Climate-KIC" },
             {
-                src: "https://viryaparamita.onrender.com/img/clients/athens-university-of-economics-and-business-national-and-kapodistrian-university-of-athens-national-technical-university-of-athens-university-of-international-business-and-economics.png",
+                src: "/images/athens_univ.png",
                 alt: "Athens University",
+            },
+            {
+                src: "/images/athens_inco.png",
+                alt: "Athens center for Enterpreneurship and Innovation",
             },
         ],
     },
     {
         category: "Government Support",
         logos: [
-            { src: "/gov_india.png", alt: "Government of India" },
-            { src: "/edb.png", alt: "Andhra Pradesh EDB" },
+            { src: "/images/gov_india.png", alt: "Government of India" },
+            { src: "/images/edb.png", alt: "Andhra Pradesh EDB" },
         ],
     },
 ];

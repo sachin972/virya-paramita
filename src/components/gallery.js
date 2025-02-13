@@ -15,7 +15,7 @@ export default function Gallery() {
     const [selectedImage, setSelectedImage] = useState(null);
 
     return (
-        <div className="p-8 bg-gradient-to-b from-blue-100 to-white min-h-screen">
+        <div className="p-8 bg-gradient-to-b from-blue-100 to-white">
             <h2 className="text-3xl font-bold text-blue-700 text-center mb-8">
                 Gallery
             </h2>

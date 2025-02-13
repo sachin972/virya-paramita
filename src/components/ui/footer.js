@@ -59,7 +59,7 @@ export default function Footer() {
                                     className="text-blue-950 font-bold transition hover:text-blue-950/65"
                                     to="/solutions"
                                 >
-                                    Services
+                                    Solutions
                                 </Link>
                             </li>
                             {/* <li>
@@ -87,9 +87,9 @@ export default function Footer() {
                             <Logo height={170} width={170} />
                         </div>
                         <div className="text-xs text-center">
-                            <p className="mb-3 font-bold text-blue-950">
+                            {/* <p className="mb-3 font-bold text-blue-950">
                                 © viryaparamita.com
-                            </p>
+                            </p> */}
                             <ul className="inline-flex gap-2">
                                 <li>
                                     <a

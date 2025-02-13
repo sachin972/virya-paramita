@@ -16,20 +16,20 @@ const AboutUs = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-blue-50 p-8">
+    <div className=" bg-blue-50 p-8">
       <motion.div
         initial="hidden"
         animate="visible"
         variants={contentVariants}
         transition={{ duration: 0.6 }}
       >
-        <div className="max-w-4xl mx-auto text-center">
+        <div className="max-w-4xl mx-auto text-center pt-10">
           <h1 className="text-4xl font-bold text-blue-800 mb-4">About Us</h1>
-          <Typography variant="body1" className="text-gray-700">
+          <Typography variant="body1" className="text-gray-700 md:py-10">
             VPE endeavors to bring an efficient class of indigenous wave energy converters (WECs) to market, enabling cost-effective low and no-carbon solutions to climate change.
           </Typography>
         </div>
-        <div className="mt-8">
+        <div className="max-w-7xl mx-auto mt-8 md:py-10">
           {points.map((point, index) => (
             <motion.div
               key={index}
@@ -46,15 +46,15 @@ const AboutUs = () => {
       </motion.div>
 
       <motion.div
-        className="mt-16"
+        className="mt-16 md:pb-10 max-w-7xl mx-auto"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 0.8 }}
       >
         <Card className="shadow-xl">
           <CardContent>
-            <h2 className="text-2xl font-semibold text-blue-800">History</h2>
-            <p className="mt-4 text-gray-700">
+            <h2 className="text-2xl font-bold text-blue-800 md:pb-10">History</h2>
+            <p className="mt-4 text-gray-700 py-3">
               Sai Arun Kiran Karthik, an Australian-trained entrepreneur, founded the first private wave energy company in India, Virya Paramita Energy (VPE) Private Limited, in 2020. Inspired by India's vast 40 GW wave power, VPE aims to foster cutting-edge technologies in sustainable energy.
             </p>
             <p className="mt-4 text-gray-700">
