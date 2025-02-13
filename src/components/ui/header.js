@@ -354,8 +354,8 @@ export default function Header() {
                             {[
                                 { name: "Home", route: "" },
                                 {
-                                    name: "Services",
-                                    route: "services",
+                                    name: "Solutions",
+                                    route: "solutions",
                                 },
                                 { name: "Portfolio", route: "portfolio" },
                                 { name: "Team", route: "team" },

@@ -22,7 +22,7 @@ export default function Footer() {
                         alt="Footer illustration"
                     />
                 </div>
-                <div className="grid grid-cols-2 justify-between mx-10 py-8 max-lg:grid-cols-1">
+                <div className="grid grid-cols-2 justify-between mx-10 py-4 max-lg:grid-cols-1">
                     {/* 1st block */}
 
                     <div className="space-y-2 lg:justify-self-start">
@@ -57,19 +57,19 @@ export default function Footer() {
                             <li>
                                 <Link
                                     className="text-blue-950 font-bold transition hover:text-blue-950/65"
-                                    to="/services"
+                                    to="/solutions"
                                 >
                                     Services
                                 </Link>
                             </li>
-                            <li>
+                            {/* <li>
                                 <Link
                                     className="text-blue-950 font-bold transition hover:text-blue-950/65"
                                     to="/terms"
                                 >
                                     Terms of Policy
                                 </Link>
-                            </li>
+                            </li> */}
                             {/* <li>
                                 <Link
                                     className="text-blue-950 font-bold transition hover:text-blue-950/65"

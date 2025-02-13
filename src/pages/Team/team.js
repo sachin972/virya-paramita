@@ -130,7 +130,7 @@ const researchers = [
 
 const webManagers = [
     {
-        name: "Anil Chaudhari",
+        name: "Anil Choudhary",
         role: ["IT Analyst"],
         image: "https://media.licdn.com/dms/image/v2/D4D03AQHzV2BKOJrzpA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1687064928651?e=1744848000&v=beta&t=ugsz3X1mLMNtuFelOGreMXdZmoyAifqbL27kqjTybwI",
     },
@@ -210,7 +210,7 @@ const Card = ({ name, role, expertise, image }) => (
 
 export default function Team() {
     return (
-        <div className="min-h-screen bg-blue-50 py-10 px-5">
+        <div className="min-h-screen py-10 px-5">
             <h1 className="text-center text-3xl font-bold text-blue-700 mb-10">
                 Our TEAM
             </h1>
@@ -248,7 +248,7 @@ export default function Team() {
 
             <section className="mt-10">
                 <h2 className="text-center text-2xl font-semibold text-gray-700 mb-5">
-                    Website Managing Team
+                    AI and Technology Team
                 </h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
                     {webManagers.map((webManager) => (

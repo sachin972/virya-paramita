@@ -48,25 +48,25 @@ export default function App() {
                     <Header />
                     <Routes>
                         <Route path="/" Component={Home} />
-                        <Route path="/services" Component={Services}>
+                        <Route path="/solutions" Component={Services}>
                             <Route
-                                path="/services/"
+                                path="/solutions/"
                                 Component={OceanMonitoringSystem}
                             />
                             <Route
-                                path="/services/ocean-monitoring"
+                                path="/solutions/ocean-monitoring"
                                 Component={OceanMonitoringSystem}
                             />
                             <Route
-                                path="/services/sub-sea-applications"
+                                path="/solutions/sub-sea-applications"
                                 Component={SubSeaApllications}
                             />
                             <Route
-                                path="/services/marine-communication"
+                                path="/solutions/marine-communication"
                                 Component={MarineCommunications}
                             />
                             <Route
-                                path="/services/ocean-inspection"
+                                path="/solutions/ocean-inspection"
                                 Component={OceanInspectionSystem}
                             />
                         </Route>

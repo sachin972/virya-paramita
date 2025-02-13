@@ -850,7 +850,7 @@ export default function ContactPage() {
                             <div>
                                 <div className=" text-blue-900">Email:</div>
                                 <span className="text-gray-700">
-                                    hr@viryaparamita.co.in
+                                    Vpeenergy@gmail.com
                                 </span>
                             </div>
                         </div>
@@ -861,7 +861,7 @@ export default function ContactPage() {
                             <div>
                                 <div className=" text-blue-900">Phone:</div>
                                 <span className="text-gray-700">
-                                    +91 9063666344
+                                    +91 8977017707
                                 </span>
                             </div>
                         </div>
